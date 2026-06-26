@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Quiz — Océan Protection France</title>
+<title>Quizz — Océan Protection France</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -399,7 +399,7 @@ body::after{
     </div>
   </div>
   <div class="bandeau">
-    <h1>Quiz <span>Océan</span><br>Méditerranée</h1>
+    <h1>Quizz <span>Océan</span><br>Méditerranée</h1>
     <p>Testez vos connaissances sur la mer et sa protection</p>
   </div>
   <div id="badge-lieu-wrap"></div>
@@ -494,7 +494,7 @@ body::after{
     <div class="mipar-card">
       <span class="mipar-emoji">🌊</span>
       <div class="mipar-titre">Mi-parcours !</div>
-      <div class="mipar-sub">Vous êtes à la moitié du quiz</div>
+      <div class="mipar-sub">Vous êtes à la moitié du quizz</div>
       <div class="mipar-score" id="mipar-score">0</div>
       <div class="mipar-pts">points pour l'instant</div>
       <button class="mipar-btn" onclick="continuerApresMiParcours()">Continuer →</button>
@@ -574,7 +574,7 @@ body::after{
     <div class="decouverte-card">
       <span class="decouverte-emoji">🤔</span>
       <div class="decouverte-titre">Une dernière question !</div>
-      <div class="decouverte-sub">Comment avez-vous connu ce quiz ?<br><span style="font-size:11px">(Plusieurs réponses possibles)</span></div>
+      <div class="decouverte-sub">Comment avez-vous connu ce quizz ?<br><span style="font-size:11px">(Plusieurs réponses possibles)</span></div>
       <div class="decouverte-choix">
         <button class="btn-decouverte" onclick="toggleDecouverte(this,'reserve_marine')">
           <span class="dec-ico">🐟</span><span>Réserve marine de la côte palavasienne</span>
@@ -816,7 +816,7 @@ function demarrer(){
     document.getElementById('capsule-texte').textContent="Créée en 2016 à l'intérieur du site Natura 2000 « Posidonies Palavasiennes », la Réserve marine couvre 100 hectares dédiés au repeuplement de la vie marine.";
     document.getElementById('capsule-source').textContent='Partenaire scientifique · Réserve marine de la côte palavasienne';
     const btnC=document.getElementById('btn-capsule-suivant');
-    btnC.textContent='Commencer le quiz →';
+    btnC.textContent='Commencer le quizz →';
     btnC.onclick=function(){btnC.onclick=null;waveGo('ecran-jeu');afficherQuestion();};
   },0);
 }
@@ -1167,7 +1167,7 @@ async function afficherResultats(){
 }
 
 function copierScore(sc,pct){
-  const txt=`🌊 J'ai obtenu ${sc} pts (${pct}%) au Quiz Océan Protection France !`;
+  const txt=`🌊 J'ai obtenu ${sc} pts (${pct}%) au Quizz Océan Protection France !`;
   navigator.clipboard?.writeText(txt).then(()=>alert('Score copié !')).catch(()=>alert(txt));
 }
 
@@ -1276,7 +1276,7 @@ async function afficherResultatsReel(){
     if(perc>=80) percTxt=`<div class="percentile-badge"><span class="perc-emoji">🏆</span><div class="perc-txt"><strong>Top ${100-perc}% des joueurs !</strong>Vous faites partie des meilleurs scores enregistrés.</div></div>`;
     else if(perc>=50) percTxt=`<div class="percentile-badge"><span class="perc-emoji">📈</span><div class="perc-txt"><strong>Vous dépassez ${perc}% des joueurs</strong>Continuez, vous progressez !</div></div>`;
   }
-  const txtPartage=encodeURIComponent(`🌊 J'ai obtenu ${score} pts (${pct}%) au Quiz Océan Protection France ! Testez-vous aussi : ${window.location.href}`);
+  const txtPartage=encodeURIComponent(`🌊 J'ai obtenu ${score} pts (${pct}%) au Quizz Océan Protection France ! Testez-vous aussi : ${window.location.href}`);
   document.getElementById('carte-resultat').innerHTML=`
     <div class="bandeau-res">
       <span class="emoji-res">${emoji}</span>
