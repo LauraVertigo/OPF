@@ -629,6 +629,7 @@ body::after{
    CONFIG
    ═══════════════════════════════════════ */
 const CONFIG = {
+  SHEET_URL: 'https://script.google.com/macros/s/AKfycbzbPFoo-lY3P6OyAIrQO4lZ33-NWjOULd-jCfxJd2K3_DANzJYcdWJd1iUPhpG0qxyx/exec',
   JSONBIN_URL: 'https://api.jsonbin.io/v3/b/VOTRE_BIN_ID',
   JSONBIN_KEY: '$2a$10$VOTRE_CLE_API',
   MAX_SCORES:  50,
@@ -1111,6 +1112,7 @@ function repondreVisite(rep,btn){
   const data=JSON.parse(localStorage.getItem('opf_visite')||'[]');
   data.push({pseudo:pseudoJoueur,reponse:rep,date:new Date().toISOString()});
   localStorage.setItem('opf_visite',JSON.stringify(data));
+  envoyerVersSheets('palavas', { pseudo:pseudoJoueur, public:publicChoisi, reponse:rep, sources:[...decouverteSelections] });
   setTimeout(()=>{waveGo('ecran-jeu');afficherQuestion();},700);
 }
 
@@ -1173,6 +1175,7 @@ function inscrireTirage(){
   const data=JSON.parse(localStorage.getItem('opf_tirage')||'[]');
   data.push({pseudo:pseudoJoueur,email,lieu:lieuActuel||'direct',score,newsletter:nl,visite:visiteReponse,date:new Date().toISOString()});
   localStorage.setItem('opf_tirage',JSON.stringify(data));
+  envoyerVersSheets('email', { pseudo:pseudoJoueur, email, newsletter:nl, score });
   alert('✅ Inscription enregistrée ! Bonne chance !');
   waveGo('ecran-fin');
 }
@@ -1223,6 +1226,7 @@ async function afficherResultatsReel(){
   else if(pct>=50){emoji='🐢';msg='Bien joué '+pseudoJoueur+' ! Continuez à vous informer.';}
   else{emoji='🌊';msg='La mer garde ses secrets '+pseudoJoueur+'… Chaque geste compte !';}
   await sauvegarderScore(pseudoJoueur,publicChoisi,score,ptsTotaux,pct);
+  envoyerVersSheets('score', { pseudo:pseudoJoueur, public:publicChoisi, score, pct, duree:durStr, sources:[...decouverteSelections] });
   const allScores=JSON.parse(localStorage.getItem('opf_scores')||'{"adultes":[],"enfants":[],"famille":[]}');
   const pub=publicChoisi||'adultes';
   const tous=(allScores[pub]||[]);
@@ -1309,6 +1313,17 @@ function afficherEcran(id){
 }
 
 function retourAccueil(){
+  async function envoyerVersSheets(type, data) {
+  if (!CONFIG.SHEETS_URL || CONFIG.SHEETS_URL.includes('https://script.google.com/macros/s/AKfycbzbPFoo-lY3P6OyAIrQO4lZ33-NWjOULd-jCfxJd2K3_DANzJYcdWJd1iUPhpG0qxyx/exec')) return;
+  try {
+    await fetch(CONFIG.SHEETS_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type, ...data })
+    });
+  } catch(e) { console.warn('Sheets non envoyé:', e); }
+}
   stopChrono();
   majMeilleurScore();
   waveGo('ecran-accueil');
