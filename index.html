@@ -1101,7 +1101,8 @@ function continuerApresMiParcours(){
     waveGo('ecran-visite');
     return;
   }
-  waveGo('ecran-jeu');afficherQuestion();
+  if(qIndex>=partieQuestions.length) afficherResultats();
+  else{waveGo('ecran-jeu');afficherQuestion();}
 }
 
 function repondreVisite(rep,btn){
@@ -1113,7 +1114,10 @@ function repondreVisite(rep,btn){
   data.push({pseudo:pseudoJoueur,reponse:rep,date:new Date().toISOString()});
   localStorage.setItem('opf_visite',JSON.stringify(data));
   envoyerVersSheets('palavas', { pseudo:pseudoJoueur, public:publicChoisi, reponse:rep, sources:[...decouverteSelections] });
-  setTimeout(()=>{waveGo('ecran-jeu');afficherQuestion();},700);
+  setTimeout(()=>{
+  if(qIndex>=partieQuestions.length) afficherResultats();
+  else{waveGo('ecran-jeu');afficherQuestion();}
+},700);
 }
 
 /* ═══════════════════════════════════════
