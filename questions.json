@@ -178,7 +178,7 @@
           },
           {
             "id": "q_biodiv_adulte_14", "type": "qcm", "points": 10,
-            "question": "La chair d'une baleine peut-elle être contaminée par du plastique ?",
+            "question": "La chaire d'une baleine peut-elle être contaminée par du plastique ?",
             "propositions": ["Vrai", "Faux"],
             "bonne_reponse": 0,
             "explication": "Les baleines mangent énormément de krill qui avale des particules de plastiques. Les krill contaminés contaminent à leur tour les prédateurs.",
@@ -277,7 +277,7 @@
     },
     {
       "id": "enig_plast_01", "type": "enigme", "theme": "plastique", "public": "tous", "points": 15,
-      "question": "On me grille après le repas, on me jette sur le sable sans y penser, mais je mets 12 ans à disparaître et je peux tuer 500 litres d'eau. Qui suis-je ?",
+      "question": "Je suis très mauvais pour la santé et pour la planète, on me jette sur le sable sans y penser, mais je mets 12 ans à disparaître et je peux tuer 500 litres d'eau. Qui suis-je ?",
       "indice": "Je suis le déchet le plus ramassé sur les plages françaises.",
       "propositions": ["Une capsule de café", "Un mégot de cigarette", "Un bâtonnet de glace", "Un ticket de caisse"],
       "bonne_reponse": 1,
