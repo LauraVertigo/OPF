@@ -1,0 +1,1056 @@
+{
+  "themes": [
+    {
+      "id": "mediterranee",
+      "niveaux": {
+        "enfants": [
+          {
+            "id": "q_plast_enf_01",
+            "type": "qcm_multi",
+            "points": 10,
+            "question": "Parmi ces déchets, lesquels trouve-t-on le plus souvent sur les plages méditerranéennes ? (2 bonnes réponses)",
+            "propositions": [
+              "Mégots de cigarette",
+              "Cartons d'emballage",
+              "Bouteilles en plastique",
+              "Canettes en verre",
+              "Sacs plastique",
+              "Jouets"
+            ],
+            "bonnes_reponses": [
+              0,
+              2
+            ],
+            "explication": "Les mégots et les bouteilles plastique sont les déchets les plus fréquents sur nos plages.",
+            "saviez_vous": "Un mégot peut polluer jusqu'à 500 litres d'eau et met 12 ans à se dégrader dans la nature !",
+            "public": "enfants"
+          },
+          {
+            "id": "q_plast_enf_02",
+            "type": "qcm",
+            "points": 10,
+            "question": "Combien de plastique les humains produisent-ils chaque seconde dans le monde ?",
+            "propositions": [
+              "100 kg",
+              "1 000 kg",
+              "10 000 kg",
+              "100 000 kg"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Chaque seconde, environ 1 000 kg de plastique sont produits dans le monde.",
+            "saviez_vous": "Plus de 8 millions de tonnes de plastique finissent chaque année dans les océans.",
+            "public": "tous"
+          },
+          {
+            "id": "q_plast_enf_03",
+            "type": "qcm",
+            "points": 10,
+            "question": "Combien de temps faut-il pour qu'une canette en aluminium se dégrade dans la mer ?",
+            "propositions": [
+              "10 à 20 ans",
+              "50 à 80 ans",
+              "200 à 500 ans",
+              "Plus de 1 000 ans"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Une canette en aluminium met entre 200 et 500 ans pour se dégrader dans la mer.",
+            "saviez_vous": "Le verre peut mettre jusqu'à 4 000 ans à se décomposer dans la nature !",
+            "public": "enfants"
+          },
+          {
+            "id": "q_plast_enf_04",
+            "type": "qcm",
+            "points": 10,
+            "question": "Combien de litres d'eau un seul mégot peut-il polluer ?",
+            "propositions": [
+              "5 litres",
+              "50 litres",
+              "500 litres",
+              "5 000 litres"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Un seul mégot peut polluer jusqu'à 500 litres d'eau avec ses substances chimiques.",
+            "saviez_vous": "La Réserve marine de la côte palavasienne organise des collectes régulières pour nettoyer les fonds marins.",
+            "public": "enfants"
+          },
+          {
+            "id": "q_plast_enf_05",
+            "type": "qcm_multi",
+            "points": 10,
+            "question": "Quelles solutions permettent de limiter les déchets plastiques ? (plusieurs réponses)",
+            "propositions": [
+              "Utiliser une gourde réutilisable",
+              "Apporter son sac au marché",
+              "Refuser les pailles en plastique",
+              "Trier ses déchets"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "explication": "Toutes ces actions réduisent la production de déchets plastiques à la source.",
+            "saviez_vous": "Océan Protection France a ramassé plus de 5 000 kg de déchets depuis 2018 sur le littoral méditerranéen.",
+            "public": "enfants"
+          },
+          {
+            "id": "q_plast_adu_03",
+            "type": "qcm",
+            "points": 10,
+            "question": "Qu'est-ce que le site Natura 2000 « Posidonies Palavasiennes » abrite principalement ?",
+            "propositions": [
+              "Des récifs coraliens artificiels",
+              "Des herbiers de posidonie protégés",
+              "Des épaves historiques classées",
+              "Des zones de frayères à thon"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le site Natura 2000 protège les herbiers de posidonie, véritable forêt sous-marine essentielle à la Méditerranée.",
+            "saviez_vous": "La Réserve marine de la côte palavasienne, créée en 2016 dans ce site, couvre 100 hectares dédiés au repeuplement de la vie marine.",
+            "public": "enfants"
+          },
+          {
+            "id": "q_biodiv_tous_06",
+            "type": "qcm",
+            "points": 10,
+            "question": "Les tortues de mer ne peuvent pas rentrer leur tête dans leur carapace.",
+            "propositions": [
+              "VRAI",
+              "FAUX"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Contrairement aux tortues terrestres, les tortues de mer ne peuvent pas rentrer leurs têtes dans leurs carapaces.",
+            "saviez_vous": "La tortue caouanne est la plus répandue en Méditerranée.",
+            "public": "tous"
+          },
+          {
+            "id": "q_eco_enf_07",
+            "type": "qcm",
+            "points": 10,
+            "question": "Comment se déplacer en polluant le moins ?",
+            "propositions": [
+              "Voiture",
+              "Avion",
+              "Transports publics",
+              "Vélo"
+            ],
+            "bonne_reponse": 3,
+            "explication": "L'utilisation de la voiture pollue en émettant du CO2. Privilégie les transports en commun ou le vélo.",
+            "saviez_vous": "En moyenne en France, le taux de remplissage d'une voiture est de 1,4 personnes sur des trajets courts.",
+            "source": "Nos gestes climat",
+            "public": "enfants"
+          },
+          {
+            "id": "q_eco_enf_08",
+            "type": "qcm",
+            "points": 10,
+            "question": "Comment appelle-t-on l'action de donner une seconde vie aux déchets ?",
+            "propositions": [
+              "Récupération",
+              "Recyclage",
+              "Rembobinage",
+              "Ressort"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le recyclage permet de donner une seconde vie à des objets ou des déchets qui seraient partis à la poubelle.",
+            "saviez_vous": "Tous types de déchets confondus, le taux de recyclage est passé de 48% en 2010 à 50% en 2020.",
+            "source": "www.notre-environnement.gouv.fr",
+            "public": "enfants"
+          },
+          {
+            "id": "q_eco_enf_09",
+            "type": "qcm_multi",
+            "points": 10,
+            "question": "Pour réduire les déchets, il vaut mieux :",
+            "propositions": [
+              "Ramasser les déchets trouvés au sol",
+              "Acheter en vrac",
+              "Préférer des contenants réutilisables"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              2
+            ],
+            "explication": "Ces trois gestes combinés permettent de réduire significativement la production de déchets.",
+            "public": "tous"
+          },
+          {
+            "id": "q_eco_enf_10",
+            "type": "qcm",
+            "points": 10,
+            "question": "Où finissent la plupart de nos déchets ?",
+            "propositions": [
+              "À la poubelle",
+              "Dans les rivières",
+              "Dans la mer"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Une grande partie des déchets mal triés finissent dans les océans via les rivières.",
+            "public": "enfants"
+          },
+          {
+            "id": "q_biodiv_tous_11",
+            "type": "qcm",
+            "points": 10,
+            "question": "Quelle est la mer la plus polluée par le plastique ?",
+            "propositions": [
+              "La mer Noire",
+              "La mer Méditerranée",
+              "La Manche",
+              "La mer des Caraïbes"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Aucune autre mer n'est autant touchée par la pollution plastique. Cela met en danger toutes les espèces marines.",
+            "saviez_vous": "La mer Méditerranée abrite entre 10 000 et 12 000 espèces.",
+            "public": "enfants"
+          },
+          {
+            "id": "q_plast_adu_12",
+            "type": "qcm",
+            "points": 10,
+            "question": "Qu'appelle-t-on le « 7e continent » ?",
+            "propositions": [
+              "Un archipel",
+              "Une concentration de déchets dans les océans",
+              "Une île entourée de mangroves"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le 7e continent est une masse géante de déchets flottants sur l'eau.",
+            "saviez_vous": "Il a été découvert en 1997, entre Hawaï et le Japon, et mesure jusqu'à 3 fois la taille de la France.",
+            "public": "tous"
+          },
+          {
+            "id": "q_plast_adu_15",
+            "type": "qcm",
+            "points": 10,
+            "question": "Sur la durée totale de sa vie, quel objet nécessite 1 300 litres d'eau ?",
+            "propositions": [
+              "Un t-shirt",
+              "Un téléphone portable",
+              "Une voiture",
+              "Un ordinateur"
+            ],
+            "bonne_reponse": 1,
+            "explication": "La fabrication, l'utilisation et le recyclage d'un téléphone portable nécessitent environ 1 300 litres d'eau.",
+            "public": "tous"
+          },
+          {
+            "id": "q_biodiv_tous_16",
+            "type": "qcm_multi",
+            "points": 10,
+            "question": "À quoi servent les récifs coralliens ?",
+            "propositions": [
+              "Abriter les poissons",
+              "Réduire la puissance des vagues",
+              "Accueillir les plongeurs",
+              "Nourrir les étoiles de mer"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              3
+            ],
+            "explication": "Les récifs coralliens servent d'habitat, d'abri et de nourriture. Ils protègent aussi les côtes des tempêtes.",
+            "saviez_vous": "Le réchauffement des eaux provoque un blanchissement des coraux qui entraîne leur mort.",
+            "public": "tous"
+          },
+          {
+            "id": "q_biodiv_tous_17",
+            "type": "qcm",
+            "points": 10,
+            "question": "Combien de pourcent de la Terre couvrent les océans ?",
+            "propositions": [
+              "10%",
+              "50%",
+              "70%",
+              "85%"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Les océans couvrent exactement 71% de la Terre. Ils représentent 97% de l'eau sur Terre.",
+            "saviez_vous": "Les océans ne sont pas des ressources inépuisables. La destruction des écosystèmes marins menace la vie.",
+            "public": "tous"
+          },
+          {
+            "id": "q_biodiv_tous_18",
+            "type": "qcm",
+            "points": 10,
+            "question": "Le son se propage plus rapidement dans l'air que dans l'eau.",
+            "propositions": [
+              "VRAI",
+              "FAUX"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le son se propage plus rapidement dans l'eau : 1 240 km/h dans l'air contre 5 400 km/h dans l'eau.",
+            "saviez_vous": "C'est pourquoi on parle de plus en plus de pollution sonore marine, qui gêne les espèces marines.",
+            "public": "tous"
+          },
+          {
+            "id": "q_biodiv_tous_19",
+            "type": "qcm",
+            "points": 10,
+            "question": "Qu'est-ce que l'empreinte écologique ?",
+            "propositions": [
+              "Des traces d'animaux",
+              "La pression des humains sur la Nature",
+              "Un label environnemental"
+            ],
+            "bonne_reponse": 1,
+            "explication": "L'empreinte écologique estime la surface de terre dont l'Homme a besoin pour ses besoins : logement, nourriture...",
+            "saviez_vous": "On parle d'une ère de l'Anthropocène : la période géologique façonnée par les activités humaines.",
+            "public": "tous"
+          },
+          {
+            "id": "q_biodiv_tous_20",
+            "type": "qcm",
+            "points": 10,
+            "question": "Quel fleuve bat tous les records mondiaux de pollution ?",
+            "propositions": [
+              "Le Citarum (Indonésie)",
+              "Le Rio Doce (Brésil)",
+              "Le fleuve Niger (Nigéria)"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Le Citarum en Indonésie est le fleuve le plus pollué du monde à cause des rejets industriels et domestiques.",
+            "saviez_vous": "La pollution de ce fleuve tue en moyenne plus de 50 000 personnes par an.",
+            "public": "tous"
+          },
+          {
+            "id": "q_eco_tous_24",
+            "type": "qcm",
+            "points": 10,
+            "question": "En fabriquant 1 tonne de papier recyclé, combien d'arbres peuvent être épargnés ?",
+            "propositions": [
+              "3",
+              "17",
+              "33"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Selon l'EPA, recycler une tonne de papier économise 17 arbres, 26,5 m³ d'eau et 11 barils de pétrole.",
+            "saviez_vous": "Le meilleur déchet est celui qui n'est pas produit. Le tri ne garantit pas le recyclage.",
+            "public": "tous"
+          },
+          {
+            "id": "q_plast_tous_25",
+            "type": "qcm",
+            "points": 10,
+            "question": "Le plastique se recycle à l'infini.",
+            "propositions": [
+              "VRAI",
+              "FAUX"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Environ 50% des emballages sont non recyclables ou très difficilement recyclables.",
+            "saviez_vous": "En France, seulement 24% des déchets plastiques sont effectivement recyclés.",
+            "source": "GéoLittoral.gouv.fr",
+            "public": "tous"
+          }
+        ],
+        "adultes": [
+          {
+            "id": "q_plast_adu_01",
+            "type": "qcm_multi",
+            "points": 10,
+            "question": "Quels sont les deux types de déchets les plus fréquents lors des ramassages côtiers en Méditerranée ?",
+            "propositions": [
+              "Mégots de cigarette",
+              "Déchets de pêche",
+              "Emballages plastique souples",
+              "Canettes métalliques",
+              "Sacs plastique rigides",
+              "Bouteilles en verre"
+            ],
+            "bonnes_reponses": [
+              0,
+              2
+            ],
+            "explication": "Les mégots et les emballages plastique souples dominent les collectes sur les plages méditerranéennes.",
+            "saviez_vous": "Selon l'IFREMER, les mégots représentent jusqu'à 30% des déchets ramassés sur le littoral français.",
+            "source": "IFREMER",
+            "public": "adultes"
+          },
+          {
+            "id": "q_plast_adu_02",
+            "type": "qcm",
+            "points": 10,
+            "question": "Quelle est la durée de dégradation estimée d'une bouteille en plastique en milieu marin ?",
+            "propositions": [
+              "10 à 50 ans",
+              "100 à 200 ans",
+              "300 à 500 ans",
+              "Plus de 1 000 ans"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Une bouteille en plastique PET peut mettre entre 300 et 500 ans à se dégrader en mer.",
+            "saviez_vous": "Les micro-plastiques issus de sa dégradation persistent indéfiniment dans l'environnement marin.",
+            "public": "tous"
+          },
+          {
+            "id": "q_plast_adu_04",
+            "type": "qcm",
+            "points": 10,
+            "question": "Quelle part de la production mondiale de plastique finit dans les océans chaque année ?",
+            "propositions": [
+              "Moins de 1%",
+              "Environ 3%",
+              "Environ 8%",
+              "Plus de 15%"
+            ],
+            "bonne_reponse": 2,
+            "explication": "On estime qu'environ 8 millions de tonnes de plastique (8% de la production mondiale) finissent dans les océans.",
+            "saviez_vous": "À ce rythme, il y aurait plus de plastique que de poissons dans les océans d'ici 2050.",
+            "public": "adultes"
+          },
+          {
+            "id": "q_plast_adu_05",
+            "type": "qcm_multi",
+            "points": 10,
+            "question": "Quelles actions ont un impact direct prouvé sur la réduction de la pollution marine littorale ?",
+            "propositions": [
+              "Ramassages citoyens réguliers",
+              "Réduction à la source des emballages",
+              "Amélioration des systèmes de collecte",
+              "Sensibilisation scolaire"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "explication": "Ces quatre leviers sont complémentaires et font partie des recommandations des experts environnementaux.",
+            "saviez_vous": "Océan Protection France mène plus de 30 événements par an : ramassages, ateliers, sensibilisation.",
+            "public": "adultes"
+          },
+          {
+            "id": "q_biodiv_tous_06",
+            "type": "qcm",
+            "points": 10,
+            "question": "Les tortues de mer ne peuvent pas rentrer leur tête dans leur carapace.",
+            "propositions": [
+              "VRAI",
+              "FAUX"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Contrairement aux tortues terrestres, les tortues de mer ne peuvent pas rentrer leurs têtes dans leurs carapaces.",
+            "saviez_vous": "La tortue caouanne est la plus répandue en Méditerranée.",
+            "public": "tous"
+          },
+          {
+            "id": "q_biodiv_adulte_13",
+            "type": "qcm",
+            "points": 10,
+            "question": "Quel animal les scientifiques étudient-ils pour évaluer la pollution de la mer ?",
+            "propositions": [
+              "La tortue",
+              "Le loup",
+              "La dorade",
+              "La baleine"
+            ],
+            "bonne_reponse": 0,
+            "explication": "La tortue est utilisée pour évaluer la pollution car les déchets dans son estomac reflètent ce qui se trouve en mer.",
+            "saviez_vous": "Le plastique représente 85% des déchets marins et toute la vie marine est menacée par cette pollution.",
+            "public": "adultes"
+          },
+          {
+            "id": "q_biodiv_adulte_14",
+            "type": "qcm",
+            "points": 10,
+            "question": "La chair d'une baleine peut être contaminée par du plastique.",
+            "propositions": [
+              "VRAI",
+              "FAUX"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Les baleines mangent du krill qui avale des micro-plastiques. Le krill contaminé contamine les baleines à son tour.",
+            "saviez_vous": "Les baleines engloutissent environ 43 kg de plastiques par jour car elles se nourrissent en profondeur.",
+            "public": "adultes"
+          },
+          {
+            "id": "q_plast_adu_15",
+            "type": "qcm",
+            "points": 10,
+            "question": "Sur la durée totale de sa vie, quel objet nécessite 1 300 litres d'eau ?",
+            "propositions": [
+              "Un t-shirt",
+              "Un téléphone portable",
+              "Une voiture",
+              "Un ordinateur"
+            ],
+            "bonne_reponse": 1,
+            "explication": "La fabrication, l'utilisation et le recyclage d'un téléphone portable nécessitent environ 1 300 litres d'eau.",
+            "public": "tous"
+          },
+          {
+            "id": "q_plast_adu_21",
+            "type": "qcm_multi",
+            "points": 10,
+            "question": "Où retrouve-t-on des PFAS (polluants éternels) ?",
+            "propositions": [
+              "Poêles",
+              "T-shirts",
+              "Flacons de crème de beauté",
+              "Eau"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "explication": "Les PFAS sont utilisés dans de très nombreux usages quotidiens : textiles, emballages, cosmétiques, cuisine.",
+            "saviez_vous": "On retrouve des PFAS chez 100% des Français. La règlementation s'est durcie en 2025.",
+            "source": "OIEAU",
+            "public": "adultes"
+          },
+          {
+            "id": "q_plast_adu_22",
+            "type": "qcm",
+            "points": 10,
+            "question": "Si je ramasse un déchet plastique dans l'eau, j'ai entièrement éliminé le problème.",
+            "propositions": [
+              "VRAI",
+              "FAUX",
+              "Vrai et faux"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Un déchet plastique dans l'eau a pu libérer des substances chimiques. Le ramasser limite mais ne supprime pas tout.",
+            "saviez_vous": "L'Ifremer estime que 90% des plastiques en mer sont des microplastiques : 24 000 milliards flottant à la surface.",
+            "public": "adultes"
+          },
+          {
+            "id": "q_eco_adu_23",
+            "type": "qcm",
+            "points": 10,
+            "question": "Quelle plante peut être utilisée pour fabriquer de la lessive maison ?",
+            "propositions": [
+              "L'ortie",
+              "Le lierre grimpant",
+              "La fougère"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le lierre grimpant possède des molécules (saponines) qui permettent de nettoyer efficacement.",
+            "saviez_vous": "Vous pouvez trouver plein d'astuces écologiques dans le guide 'Ma famille Zéro déchets' disponible en ligne.",
+            "public": "adultes"
+          },
+          {
+            "id": "q_biodiv_tous_12",
+            "type": "qcm",
+            "points": 10,
+            "question": "Qu'appelle-t-on le « 7e continent » ?",
+            "propositions": [
+              "Un archipel",
+              "Une concentration de déchets dans les océans",
+              "Une île entourée de mangroves"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le 7e continent est une masse géante de déchets flottants sur l'eau.",
+            "saviez_vous": "Il a été découvert en 1997, entre Hawaï et le Japon, et mesure jusqu'à 3 fois la taille de la France.",
+            "public": "tous"
+          },
+          {
+            "id": "q_biodiv_tous_17b",
+            "type": "qcm",
+            "points": 10,
+            "question": "Combien de pourcent de la Terre couvrent les océans ?",
+            "propositions": [
+              "10%",
+              "50%",
+              "70%",
+              "85%"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Les océans couvrent exactement 71% de la Terre. Ils représentent 97% de l'eau sur Terre.",
+            "saviez_vous": "Les océans ne sont pas des ressources inépuisables. La destruction des écosystèmes marins menace la vie.",
+            "public": "tous"
+          },
+          {
+            "id": "q_biodiv_tous_18b",
+            "type": "qcm",
+            "points": 10,
+            "question": "Le son se propage plus rapidement dans l'air que dans l'eau.",
+            "propositions": [
+              "VRAI",
+              "FAUX"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le son se propage plus rapidement dans l'eau : 1 240 km/h dans l'air contre 5 400 km/h dans l'eau.",
+            "saviez_vous": "C'est pourquoi on parle de plus en plus de pollution sonore marine, qui gêne les espèces marines.",
+            "public": "tous"
+          },
+          {
+            "id": "q_eco_tous_24b",
+            "type": "qcm",
+            "points": 10,
+            "question": "En fabriquant 1 tonne de papier recyclé, combien d'arbres peuvent être épargnés ?",
+            "propositions": [
+              "3",
+              "17",
+              "33"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Selon l'EPA, recycler une tonne de papier économise 17 arbres, 26,5 m³ d'eau et 11 barils de pétrole.",
+            "saviez_vous": "Le meilleur déchet est celui qui n'est pas produit. Le tri ne garantit pas le recyclage.",
+            "public": "tous"
+          },
+          {
+            "id": "q_plast_tous_25b",
+            "type": "qcm",
+            "points": 10,
+            "question": "Le plastique se recycle à l'infini.",
+            "propositions": [
+              "VRAI",
+              "FAUX"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Environ 50% des emballages sont non recyclables ou très difficilement recyclables.",
+            "saviez_vous": "En France, seulement 24% des déchets plastiques sont effectivement recyclés.",
+            "source": "GéoLittoral.gouv.fr",
+            "public": "tous"
+          }
+        ]
+      }
+    }
+  ],
+  "enigmes": [
+    {
+      "id": "enig_mer_01",
+      "type": "enigme",
+      "theme": "biodiversite",
+      "public": "enfants",
+      "points": 15,
+      "question": "Je suis une forêt sous la mer, mes feuilles font de l'oxygène, les petits poissons s'y cachent. Qui suis-je ?",
+      "indice": "Mon nom vient du grec et signifie « herbe de mer ».",
+      "propositions": [
+        "Le corail",
+        "La posidonie",
+        "Le varech",
+        "La caulerpe"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La posidonie est une plante marine (pas une algue !) qui forme de véritables forêts sous-marines en Méditerranée.",
+      "saviez_vous": "Un herbier de posidonie produit jusqu'à 14 litres d'oxygène par heure et par mètre carré !",
+      "source": "Parc national de Port-Cros"
+    },
+    {
+      "id": "enig_mer_02",
+      "type": "enigme",
+      "theme": "biodiversite",
+      "public": "enfants",
+      "points": 15,
+      "question": "Je change de couleur en une seconde, je peux me faire passer pour un rocher, j'ai trois cœurs et du sang bleu. Qui suis-je ?",
+      "indice": "Je suis le plus intelligent des invertébrés marins.",
+      "propositions": [
+        "La seiche",
+        "La pieuvre",
+        "Le calmar",
+        "La méduse"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La pieuvre possède 3 cœurs, du sang bleu riche en cuivre, et des chromatophores qui lui permettent de changer de couleur instantanément.",
+      "saviez_vous": "Le poulpe commun est présent dans la Réserve marine de la côte palavasienne."
+    },
+    {
+      "id": "enig_plast_01",
+      "type": "enigme",
+      "theme": "plastique",
+      "public": "tous",
+      "points": 15,
+      "question": "On me grille après le repas, on me jette sur le sable sans y penser, mais je mets 12 ans à disparaître et je peux polluer 500 litres d'eau. Qui suis-je ?",
+      "indice": "Je suis le déchet le plus ramassé sur les plages françaises.",
+      "propositions": [
+        "Une capsule de café",
+        "Un mégot de cigarette",
+        "Un bâtonnet de glace",
+        "Un ticket de caisse"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le mégot est le déchet le plus fréquent sur les plages. Il contient des métaux lourds et des substances cancérigènes.",
+      "saviez_vous": "Lors du World Cleanup Day 2023, 43% des déchets ramassés en France étaient des mégots.",
+      "source": "World Cleanup Day France, 2023"
+    },
+    {
+      "id": "enig_reserve_01",
+      "type": "enigme",
+      "theme": "reserve_marine",
+      "public": "adultes",
+      "points": 15,
+      "question": "Créée en 2016, je couvre 100 hectares au cœur d'un site Natura 2000. Il est interdit d'y pêcher, mais pas d'y plonger. Où suis-je ?",
+      "indice": "Je me trouve entre Palavas et Maguelone.",
+      "propositions": [
+        "La réserve de Scandola",
+        "Le banc des Aresquiers",
+        "La Réserve marine de la côte palavasienne",
+        "Le Parc marin de la Côte Bleue"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La Réserve marine de la côte palavasienne a été créée en 2016 dans le site Natura 2000 des Posidonies Palavasiennes.",
+      "saviez_vous": "Depuis sa création, les populations de mérous et de sars ont augmenté de 40% dans la zone protégée.",
+      "source": "Comité Régional des Pêches, 2022"
+    },
+    {
+      "id": "enig_mer_03",
+      "type": "enigme",
+      "theme": "biodiversite",
+      "public": "enfants",
+      "points": 15,
+      "question": "Lorsque je dors, une partie de mon cerveau reste éveillée. Avec mon sonar, je repère mes proies. J'émets des sifflements pour communiquer. Je suis un cétacé très intelligent.",
+      "indice": "Je suis souvent aperçu au large de la côte méditerranéenne.",
+      "propositions": [
+        "Le poulpe",
+        "La dorade",
+        "Le dauphin"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le dauphin est un cétacé très intelligent, capable d'émettre des sifflements pour communiquer et de naviguer grâce à son sonar naturel.",
+      "saviez_vous": "Les dauphins dorment avec un seul hémisphère cérébral à la fois pour rester vigilants."
+    },
+    {
+      "id": "enig_mer_04",
+      "type": "enigme",
+      "theme": "biodiversite",
+      "public": "enfants",
+      "points": 15,
+      "question": "Je compte plus de 7 000 espèces. En mangeant les petits animaux morts, je nettoie les fonds marins. Je me déplace de manière latérale. Je suis un crustacé doté de pinces.",
+      "propositions": [
+        "L'hippocampe",
+        "Le crabe",
+        "La méduse"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le crabe est un prédateur et nettoyeur des fonds marins. Il aide à maintenir l'équilibre écologique.",
+      "saviez_vous": "Le crabe se nourrit d'algues et de petites espèces, ce qui permet de réguler les populations marines."
+    },
+    {
+      "id": "enig_plast_02",
+      "type": "enigme",
+      "theme": "plastique",
+      "public": "adultes",
+      "points": 15,
+      "question": "Je suis le plastique synthétique le plus répandu pour l'emballage alimentaire. Mon petit nom est…",
+      "propositions": [
+        "Polychlorure",
+        "Polycopié",
+        "Polyéthylène"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le polyéthylène est l'un des matériaux les moins coûteux à produire. On le retrouve dans de nombreux usages courants.",
+      "saviez_vous": "En moyenne, 100 millions de tonnes de polyéthylène sont produites chaque année.",
+      "source": "INRAE"
+    }
+  ],
+  "questions_images": [
+    {
+      "id": "img_faune_01",
+      "type": "qcm",
+      "theme": "biodiversite",
+      "public": "tous",
+      "points": 10,
+      "image_url": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/merou%20(fedorowsky-).jpg",
+      "image_credit": "© Federowsky",
+      "question": "Quel est ce poisson emblématique de la Réserve marine de la côte palavasienne ?",
+      "propositions": [
+        "Le bar commun",
+        "La daurade royale",
+        "Le mérou brun",
+        "Le loup de mer"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le mérou brun est une espèce emblématique de la Méditerranée, protégée dans la Réserve marine.",
+      "saviez_vous": "Le mérou peut vivre plus de 50 ans et changer de sexe : il naît femelle et devient mâle avec l'âge !",
+      "source": "Ifremer"
+    },
+    {
+      "id": "img_dechet_01",
+      "type": "qcm",
+      "theme": "plastique",
+      "public": "enfants",
+      "points": 10,
+      "image_url": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/megots.jpg",
+      "image_credit": "Image libre de droit",
+      "question": "C'est le déchet le plus ramassé sur les plages françaises. Lequel est-ce ?",
+      "propositions": [
+        "Un emballage alimentaire",
+        "Un mégot de cigarette",
+        "Un bouchon de bouteille",
+        "Une paille en plastique"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le mégot est le déchet numéro 1 sur les plages. Il libère des substances toxiques dans l'eau.",
+      "saviez_vous": "Océan Protection France a collecté plus de 5 000 kg de déchets depuis 2018, dont une grande part de mégots.",
+      "source": "OPF, bilan 2023"
+    },
+    {
+      "id": "img_posidonie_01",
+      "type": "qcm",
+      "theme": "posidonie",
+      "public": "adultes",
+      "points": 10,
+      "image_url": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/posidonie.jpg",
+      "image_credit": "Image libre de droit",
+      "question": "Que représente cette image sous-marine, classée Natura 2000 au large de Palavas ?",
+      "propositions": [
+        "Un champ d'algues invasives",
+        "Un herbier de posidonie",
+        "Un fond de sable nu",
+        "Une zone de coraux profonds"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Les herbiers de posidonie produisent de l'oxygène et servent de nurserie pour de nombreuses espèces.",
+      "saviez_vous": "Un mètre carré de posidonie produit autant d'oxygène en un an qu'un arbre adulte.",
+      "source": "DREAL Occitanie"
+    },
+    {
+      "id": "img_dechet_02",
+      "type": "qcm",
+      "theme": "plastique",
+      "public": "tous",
+      "points": 10,
+      "image_url": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/canette.jpg",
+      "image_credit": "Image libre de droit",
+      "question": "Combien de temps met une canette en aluminium à se décomposer dans la mer ?",
+      "propositions": [
+        "2 ans",
+        "60 ans",
+        "200 à 500 ans"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Une canette en aluminium met entre 200 et 500 ans pour se dégrader dans la mer.",
+      "saviez_vous": "Une bouteille en plastique met entre 450 et 500 ans pour se décomposer."
+    },
+    {
+      "id": "img_dechet_03",
+      "type": "qcm",
+      "theme": "plastique",
+      "public": "tous",
+      "points": 10,
+      "image_url": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/le-chewing-gum-colle-sur-un-trottoir-fa4m49.jpg",
+      "image_credit": "Image libre de droit",
+      "question": "Quelle est la durée de vie d'un chewing-gum jeté par terre ?",
+      "propositions": [
+        "2 jours",
+        "3 mois",
+        "5 ans"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La durée de vie d'un chewing-gum est d'environ 5 ans car il est fait de matériaux non biodégradables.",
+      "saviez_vous": "Des millions de chewing-gums sont collés sur les trottoirs, représentant une pollution durable et coûteuse à nettoyer."
+    }
+  ],
+  "questions_association": [
+    {
+      "id": "assoc_bio_01",
+      "type": "association",
+      "sous_type": "mots-mots",
+      "theme": "biodiversite",
+      "public": "enfants",
+      "points": 15,
+      "consigne": "Relie chaque animal marin à sa caractéristique principale.",
+      "gauche": [
+        "Mérou brun",
+        "Posidonie",
+        "Pieuvre",
+        "Méduse"
+      ],
+      "droite": [
+        "Change de couleur en 1 seconde",
+        "Produit de l'oxygène sous l'eau",
+        "Poisson emblème de la réserve",
+        "Se déplace sans nageoires"
+      ],
+      "paires": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explication": "Le mérou est le poisson emblème, la posidonie produit l'oxygène, la pieuvre change de couleur, la méduse se déplace par pulsation.",
+      "saviez_vous": "La Réserve marine de la côte palavasienne abrite toutes ces espèces !"
+    },
+    {
+      "id": "assoc_plast_01",
+      "type": "association",
+      "sous_type": "mots-mots",
+      "theme": "plastique",
+      "public": "tous",
+      "points": 15,
+      "consigne": "Relie chaque déchet à son temps de dégradation dans la mer.",
+      "gauche": [
+        "Mégot de cigarette",
+        "Bouteille en plastique",
+        "Canette aluminium",
+        "Sac plastique",
+        "Verre"
+      ],
+      "droite": [
+        "1 à 5 ans",
+        "10 à 12 ans",
+        "200 à 500 ans",
+        "300 à 500 ans",
+        "Jusqu'à 4 000 ans"
+      ],
+      "paires": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "explication": "Le sac plastique se dégrade en 1-5 ans, le mégot en 10-12 ans, la canette en 200-500 ans, la bouteille en 300-500 ans, le verre jusqu'à 4 000 ans.",
+      "saviez_vous": "Aucun de ces matériaux ne disparaît vraiment : ils se fragmentent en micro-plastiques.",
+      "source": "ADEME, 2022"
+    },
+    {
+      "id": "assoc_bio_02",
+      "type": "association",
+      "sous_type": "mots-images",
+      "theme": "biodiversite",
+      "public": "tous",
+      "points": 15,
+      "consigne": "Relie chaque nom d'espèce à sa photo.",
+      "gauche": [
+        "Mérou brun",
+        "Posidonie",
+        "Poulpe commun",
+        "Seiche"
+      ],
+      "droite": [
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/merou%20(fedorowsky-).jpg",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/posidonie.jpg",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/poulpe.jpg",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/lg-b-seiche-commune-sepia-officinalis.jpg"
+      ],
+      "paires": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explication": "Ces quatre espèces sont toutes présentes en Méditerranée et dans la réserve marine.",
+      "saviez_vous": "Le poulpe et la sèche sont deux céphalopodes très différents : la sèche a un os interne, le poulpe non."
+    },
+    {
+      "id": "assoc_eco_01",
+      "type": "association",
+      "sous_type": "mots-mots",
+      "theme": "plastique",
+      "public": "adultes",
+      "points": 15,
+      "consigne": "Associe chaque geste écologique à son impact principal.",
+      "gauche": [
+        "Utiliser une gourde",
+        "Trier ses déchets",
+        "Refuser les pailles plastique",
+        "Ramasser un déchet sur la plage"
+      ],
+      "droite": [
+        "Évite jusqu'à 150 bouteilles/an",
+        "Permet le recyclage des matières",
+        "Réduit les déchets marins",
+        "Empêche la pollution directe"
+      ],
+      "paires": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explication": "Chaque geste a un impact concret et mesurable sur la réduction des déchets marins.",
+      "saviez_vous": "En France, chaque personne utilise en moyenne 150 bouteilles d'eau en plastique par an.",
+      "source": "Surfrider Foundation, 2023"
+    },
+    {
+      "id": "assoc_dech_01",
+      "type": "association",
+      "sous_type": "mots-images",
+      "theme": "dechets",
+      "public": "tous",
+      "points": 15,
+      "consigne": "Dans quelle poubelle jeter ces déchets ?",
+      "gauche": [
+        "Peau de banane",
+        "Pile usagée",
+        "Une bouteille en verre",
+        "Barquette en plastique"
+      ],
+      "droite": [
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/bac-jaune-e1664890215489.png",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/collecte-verre.png",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/Biobin-detoure.jpg.webp",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/poubelle%20ecosysteme.png"
+      ],
+      "paires": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explication": "La peau de banane va au bac organique, la pile chez les collecteurs spéciaux, la bouteille en verre dans la collecte verre, la barquette dans le bac jaune.",
+      "saviez_vous": "Un seul déchet mal trié peut contaminer tout un sac de déchets recyclables."
+    }
+  ]
+}
