@@ -1,0 +1,1593 @@
+{
+  "themes": [
+    {
+      "id": "theme_principal",
+      "niveaux": {
+        "enfants": [
+          {
+            "id": "q_plast_enf_01",
+            "type": "qcm_multi",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Parmi ces déchets, lesquels trouve-t-on le plus souvent sur les plages méditerranéennes ? (2 bonnes réponses)",
+            "propositions": [
+              "Mégots de cigarette",
+              "Cartons d'emballage",
+              "Bouteilles en plastique",
+              "Canettes en verre",
+              "Sacs plastique",
+              "Jouets"
+            ],
+            "bonnes_reponses": [
+              0,
+              2
+            ],
+            "explication": "Les mégots et les bouteilles plastique sont les déchets les plus fréquents sur nos plages.",
+            "saviez_vous": "Un mégot peut polluer jusqu'à 500 litres d'eau et met 12 ans à se dégrader dans la nature !"
+          },
+          {
+            "id": "q_plast_enf_02",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Combien de plastique les humains produisent-ils chaque seconde dans le monde ?",
+            "propositions": [
+              "100 kg",
+              "1 000 kg",
+              "10 000 kg",
+              "100 000 kg"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Chaque seconde, environ 1 000 kg de plastique sont produits dans le monde.",
+            "saviez_vous": "Plus de 8 millions de tonnes de plastique finissent chaque année dans les océans."
+          },
+          {
+            "id": "q_plast_enf_03",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Combien de temps faut-il pour qu'une canette en aluminium se dégrade dans la mer ?",
+            "propositions": [
+              "10 à 20 ans",
+              "50 à 80 ans",
+              "200 à 500 ans",
+              "Plus de 1 000 ans"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Une canette en aluminium met entre 200 et 500 ans pour se dégrader dans la mer.",
+            "saviez_vous": "Le verre peut mettre jusqu'à 4 000 ans à se décomposer dans la nature !"
+          },
+          {
+            "id": "q_plast_enf_04",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Combien de litres d'eau un seul mégot peut-il polluer ?",
+            "propositions": [
+              "5 litres",
+              "50 litres",
+              "500 litres",
+              "5 000 litres"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Un seul mégot peut polluer jusqu'à 500 litres d'eau avec ses substances chimiques.",
+            "saviez_vous": "La Réserve marine de la côte palavasienne organise des collectes régulières pour nettoyer les fonds marins."
+          },
+          {
+            "id": "q_plast_enf_05",
+            "type": "qcm_multi",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Quelles solutions permettent de limiter les déchets plastiques ? (plusieurs réponses)",
+            "propositions": [
+              "Utiliser une gourde réutilisable",
+              "Apporter son sac au marché",
+              "Refuser les pailles en plastique",
+              "Trier ses déchets"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "explication": "Toutes ces actions réduisent la production de déchets plastiques à la source.",
+            "saviez_vous": "Océan Protection France a ramassé plus de 5 000 kg de déchets depuis 2018 sur le littoral méditerranéen."
+          },
+          {
+            "id": "q_plast_adu_02",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Quelle est la durée de dégradation estimée d'une bouteille en plastique en milieu marin ?",
+            "propositions": [
+              "10 à 50 ans",
+              "100 à 200 ans",
+              "300 à 500 ans",
+              "Plus de 1 000 ans"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Une bouteille en plastique PET peut mettre entre 300 et 500 ans à se dégrader en mer.",
+            "saviez_vous": "Les micro-plastiques issus de sa dégradation persistent indéfiniment dans l'environnement marin."
+          },
+          {
+            "id": "q_plast_adu_03",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Qu'est-ce que le site Natura 2000 « Posidonies Palavasiennes » abrite principalement ?",
+            "propositions": [
+              "Des récifs coraliens artificiels",
+              "Des herbiers de posidonie protégés",
+              "Des épaves historiques classées",
+              "Des zones de frayères à thon"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le site Natura 2000 protège les herbiers de posidonie, véritable forêt sous-marine essentielle à la Méditerranée.",
+            "saviez_vous": "La Réserve marine de la côte palavasienne, créée en 2016 dans ce site, couvre 100 hectares dédiés au repeuplement de la vie marine."
+          },
+          {
+            "id": "q_biodiv_tous_06",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Les tortues de mer ne peuvent pas rentrer leur tête dans leur carapace.",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Contrairement aux tortues terrestres, les tortues de mer ne peuvent pas rentrer leurs têtes dans leurs carapaces.",
+            "saviez_vous": "Les tortues caouanne reviennent pondre sur les plages où elles ont éclos. Les sites de pontes sont protégées en Méditerranée pour préserver le développement des œufs",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/Sea-turtle_NMPZ_Laurent-Sourbes-1471x1080-panorama.jpg"
+          },
+          {
+            "id": "q_eco_enf_07",
+            "type": "qcm_multi",
+            "theme": "eco",
+            "points": 10,
+            "question": "Comment se déplacer sans le moins polluer ?",
+            "propositions": [
+              "voiture",
+              "avion",
+              "transports publics",
+              "vélo"
+            ],
+            "bonnes_reponses": [
+              2,
+              3
+            ],
+            "explication": "L'utilisation de la voiture pollue en émettant du CO2 dans l'atmosphère. Priviligie les transports en commun publics ou le vélo",
+            "saviez_vous": "en moyenne en France, le taux de remplissage d'une voiture est de 1,4 personnes sur des trajets courts, et 2,25 personnes sur des trajets longs.",
+            "source": "Nos gestes climats"
+          },
+          {
+            "id": "q_eco_enf_08",
+            "type": "qcm",
+            "theme": "eco",
+            "points": 10,
+            "question": "Comment appelle-t-on l’action de donner une seconde vie aux déchets ?",
+            "propositions": [
+              "récupération",
+              "recyclage",
+              "rembobinage",
+              "ressort"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le recyclage permet de donner une seconde vie à des objets ou des déchets qui seraient partis à la poubelle",
+            "saviez_vous": "Tous types de déchets confondus, le taux de recyclage est passé de 48 % en 2010 à 50 % en 2020",
+            "source": "www.notre-environnement.gouv.fr"
+          },
+          {
+            "id": "q_eco_enf_09",
+            "type": "qcm_multi",
+            "theme": "eco",
+            "points": 10,
+            "question": "Pour réduire les déchets, il vaut mieux",
+            "propositions": [
+              "ramasser les déchets trouvés au sol",
+              "acheter en vrac",
+              "préférer des contenants réutilisables"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "q_eco_enf_10",
+            "type": "qcm",
+            "theme": "eco",
+            "points": 10,
+            "question": "Où finissent la plupart de nos déchets ?",
+            "propositions": [
+              "à la poubelle",
+              "dans les rivières",
+              "dans la mer"
+            ],
+            "bonne_reponse": 2
+          },
+          {
+            "id": "q_biodiv_tous_11",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Quelle est la mer la plus polluée par le plastique ?",
+            "propositions": [
+              "la mer noire",
+              "la Mer Méditerranée",
+              "la Manche",
+              "La Mer Caraïbe"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Aucune autre mer du monde n’est autant touché par la pollution. Cela met en danger les espèces marines qui y vivent et la santé humaine.",
+            "saviez_vous": "La mer Méditerranée détient entre 10 000 et 12 000 espèces. Donc si la mer Méditerranée est menacée par la pollution, ce sont 10 000 à 12 000 espèces qui le sont aussi."
+          },
+          {
+            "id": "q_plast_adu_12",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Qu’appelle-t-on le « 7ème continent » ?",
+            "propositions": [
+              "un archipel",
+              "une concentration de déchets dans les océans",
+              "une île entourée de mangroves"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le 7ème continent est une masse géante de déchets flottants sur l’eau.",
+            "saviez_vous": "Le saviez-vous : Il a été découvert en 1997, entre hawaï et le Japon, et mesure jusqu’à 3 fois la taille de la France. Aujourd’hui, il existe des continents de déchets un peu partout dans les eaux du globe"
+          },
+          {
+            "id": "q_plast_adu_15",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Sur la durée totale de sa vie, quel objet nécessite 1300 litres d’eau ?",
+            "propositions": [
+              "un t-shirt",
+              "un téléphone portable",
+              "une voiture",
+              "un ordinateur"
+            ],
+            "bonne_reponse": 1
+          },
+          {
+            "id": "q_biodiv_tous_16",
+            "type": "qcm_multi",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "A quoi servent les récifs coralliens?",
+            "propositions": [
+              "abriter les poissons",
+              "réduire la puissance des vagues et des tempêtes",
+              "accueillir les plongeurs",
+              "nourrir les étoiles de mer"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              3
+            ],
+            "explication": "Les récifs coralliens servent d’habitat, d’abris et de source de nourriture aux poissons et êtres vivants marins, préservant la biodiversité. Ils permettent également de protéger l’homme en réduisant la puissance des vagues et des tempêtes qui viennent s’écraser sur nos côtes.",
+            "saviez_vous": "Le réchauffement des eaux et l’acidification des océans provoque un blanchissement des coraux liés à la modification de leur environnement, provoquant sa mort. La mort des coraux met en péril la survie de la vie marine"
+          },
+          {
+            "id": "q_biodiv_tous_17",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Combien de pourcentage de la Terre couvre les océans ?",
+            "propositions": [
+              "0.1",
+              "0.5",
+              "70",
+              "85"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Les océans couvrent exactement 71% de la Terre, d’où son surnom de planète bleue. Ils représentent 97% de l’eau sur Terre. Ils nous permettent de nous nourrir, de respirer et de réguler notre climat.",
+            "saviez_vous": "Les océans ne sont pas des ressources inépuisables. La destruction et la pollution des écosystèmes marins provoqués par l’activité humaine menacent la vie marine et humaine."
+          },
+          {
+            "id": "q_biodiv_tous_18",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Le son se propage plus rapidement dans l’air que dans l’eau",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Le son se propage plus rapidement dans l’eau. Il se déplace à 1240 km/h dans l’air contre 55 400 km/h dans l’eau.",
+            "saviez_vous": "c'est pourquoi on parle de plus en plus de pollution sonore marine, qui gêne les comportements et les déplacements des espèces marines"
+          },
+          {
+            "id": "q_biodiv_tous_19",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Qu’est- ce que l’empreinte écologique ?",
+            "propositions": [
+              "Des traces d’animaux",
+              "la pression des humains sur la Nature",
+              "Des traces d’animaux"
+            ],
+            "bonne_reponse": 1,
+            "explication": "L’empreinte écologique est l’estimation de la surface de terre dont l’Homme a besoin pour répondre à ses besoins : se loger, se nourrir, s’habiller…",
+            "saviez_vous": "On parle d'une période de l'Anthropocène : il s'agit de l'ère écologique façonnée par les activités humaines."
+          },
+          {
+            "id": "q_biodiv_tous_20",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "On ne compte plus les fleuves pollués dans le monde…Mais lequel bat tous les records en termes de pollution ?",
+            "propositions": [
+              "Le Citarum (Indonésie)",
+              "Le Rio Doce (Brésil)",
+              "Le fleuve Niger (Nigéria)"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Le Citarum est un fleuve situé en Indonésie qui s’étend sur environ 300 kilomètres. Mais avec les rejets industriels et domestiques de la part des usines et des , le fleuve est devenu le fleuve le plus pollué. Tous les jours, des tonnes de produits chimiques et de déchets plastiques y sont jetés. Cette pollution dégrade les écosystèmes et menace la vie marine et terrestre. La pollution de ce fleuve tue en moyenne plus de 50 000 personnes par an.",
+            "saviez_vous": "De nombreux projets, portés par des citoyens, des collectivités ou des startups, voient le jour à travers le monde pour réduire les déchets dans les fleuves et les rivières, et ainsi préserver la santé des populations et la qualité des eaux"
+          },
+          {
+            "id": "q_eco_tous_24",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "En fabriquant 1 tonne de papier à partir de papier recyclé, combien d’arbres peuvent être épargnés ?",
+            "propositions": [
+              "3",
+              "17",
+              "33"
+            ],
+            "bonne_reponse": 1,
+            "explication": "selon l'Agence de protection de l'environnement des États-Unis (EPA), le recyclage d'une tonne de papier peut économiser environ 17 arbres, 26,5 m3 d'eau et 11 barils de pétrole.",
+            "saviez_vous": "Le tri ne produit pas moins de déchets, mais seulement des déchets mieux rangés, qui peuvent donc être mieux valorisés. Le tri est une étape qui n’est pas forcément suivie d’un recyclage, et le meilleur déchet est celui qui n’est pas produit."
+          },
+          {
+            "id": "q_plast_tous_25",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "le plastique se recycle à l'infini",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Un des obstacles au recyclage des plastiques est leur grande diversité : environ 50 % des emballages sont soit non recyclables, soit très difficilement recyclables. (source : GéoLittoral.gouv.fr)",
+            "saviez_vous": "En France, 24 % des déchets plastiques et 26% des déchets d'emballages plastiques sont recyclés.(source : géolittoral.gouv.fr)"
+          },
+          {
+            "id": "q_biodiv_enf_26",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Qu'est-ce que la posidonie ?",
+            "propositions": [
+              "Une plante qui vit dans la mer et sert d’habitat aux poissons",
+              "Un petit poisson de la famille des posidons"
+            ],
+            "bonne_reponse": 0,
+            "saviez_vous": "On appelle la posidonie le “poumon de la mer” car elle produit beaucoup d’oxygène. Elle sert d’habitat, de nurserie, et de refuge à la biodiversité marine. Jeter l’ancre dans la posidonie l’arrache des fonds marins, il faut le faire dans le sable.",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/Atherines%20Herbier.JPG"
+          },
+          {
+            "id": "q_res_enf_28",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Qu’est ce que la réserve marine de Palavas-les-Flots?",
+            "propositions": [
+              "Un aquarium contenant des animaux et des plantes vivants en Méditerranée",
+              "Une zone protégée dans la mer"
+            ],
+            "bonne_reponse": 1,
+            "explication": "La Réserve Marine de Palavas-les-Flots est une zone protégée en mer à 2 km des côtes. Elle est délimitée par de grandes bouées jaunes. Dans cette zone, il est interdit de pêcher, de naviguer et de plonger.",
+            "saviez_vous": "La réserve permet aux espèces de vivre et se reproduire paisiblement et sans être dérangés par les activités humaines",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/zone%20reserve.png"
+          },
+          {
+            "id": "q_res_enf_30",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Qui a créé la Réserve Marine de Palavas-les-Flots ?",
+            "propositions": [
+              "les pêcheurs et la ville",
+              "les pêcheurs et le port",
+              "le port et la ville",
+              "la ville"
+            ],
+            "bonne_reponse": 0,
+            "explication": "La Réserve Marine de Palavas-les-Flots a été créée en 2016 à l’initiative des pêcheurs et de la commune de Palavas-les-Flots",
+            "saviez_vous": "En effet, les pêcheurs se sont rendu compte d’un déclin des populations de poissons, ce qui les a incité à prendre l’initiative de la création d’une zone protégée et réglementée.",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/banc%20poissons.jpg"
+          },
+          {
+            "id": "q_res_enf_32",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "La réserve marine de Palavas-les-Flots surveille la zone tout l’été ?",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Une personne appelée “écogarde” surveille la Réserve Marine tout l’été. Il s’assure que les règles soient respectées : pas de plongée sauf dans une petite zone, pas de navigation, pas de pêche.",
+            "saviez_vous": "Tout l'été, vous pouvez venir découvrir la Réserve marine et le sentier sous-marin.",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/Logo%20Typographie.png"
+          },
+          {
+            "id": "q_res_tous_34",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Quelle est la particularité du Puffin de Méditerranée ?",
+            "propositions": [
+              "il peut dormir en volant",
+              "il ne peut pas plonger",
+              "son plumage est imperméable",
+              "la femelle ne pond qu'un seul œuf par an"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Le puffin de Méditerranée est aussi appelé puffin de Yelkouan. C’est un oiseau marin qui vit majoritairement en mer.",
+            "saviez_vous": "La femelle vient sur la côte seulement pour pondre, où elle pond un seul oeuf par an. Ces oiseaux ne construisent pas de nid, et la ponte se fait généralement dans une cavité rocheuse. Ils vivent en colonie, et volent à ras des vagues. Il peut même dormir en volant !",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/puffin-mediterranee-1-n-bazin-parc-national-calanques-marseille-cassis-la-ciotat.jpg",
+            "source": "bazin-parc-national-calanques-marseille-cassis-la-ciota"
+          },
+          {
+            "id": "q_res_enf_35",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Combien de fois par été les personnes ne respectent pas les règles de la Réserve Marine de Palavas-les-Flots?",
+            "propositions": [
+              "entre 20 et 30",
+              "entre 30 et 40",
+              "entre 40 et 50",
+              "entre 50 et 60"
+            ],
+            "bonne_reponse": 1,
+            "explication": "On estime entre 30 et 40 le nombre d’infractions commises chaque été dans la Réserve Marine de Palavas-les-Flots.",
+            "saviez_vous": "la Réserve marine de la côte palavasienne, se situe à 2 km des côtes et s'étend sur une superficie de 100 hectares",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/zone%20reserve.png"
+          },
+          {
+            "id": "q_res_enf_37",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Qu’est-ce que le coralligène?",
+            "propositions": [
+              "un \"rocher vivant\"",
+              "un regroupement de coraux"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Le coralligène est un habitat spécifique à la Méditerranée. Un quart des animaux et des plantes de la Méditerranée y vivent. C’est pour cela qu’on l’appelle “rocher vivant”.",
+            "saviez_vous": "Le coralligène abrite de manière temporaire ou permanente 15 à 20% des espèces présentent en Méditerranée, soit plus de 1700 espèces !"
+          },
+          {
+            "id": "q_res_enf_39",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "La réserve marine de Palavas-les-Flots est surveillée tout l’été",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Chaque été, un écogarde navigue autour de la Réserve Marine de Palavas-les-Flots afin de la surveiller. Son rôle est d’informer les usagers de la mer de l’existence de la réserve et d’en faire respecter la réglementation."
+          },
+          {
+            "id": "q_res_enf_40",
+            "type": "qcm_multi",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Si je veux pêcher pendant les vacances, je dois :",
+            "propositions": [
+              "Me déclarer en tant que pêcheur",
+              "Déclarer mes prises si ce sont des espèces protégées",
+              "Ne pêcher que les gros poissons"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              2
+            ],
+            "explication": "Si je souhaite pêcher, je dois être responsable. Dès 16 ans, je me déclare en tant que pêcheur plaisancier et je m’informe sur les réglementations et les pratiques responsables à adopter. Par exemple, ne pêcher que des poissons ayant atteint leur taille de maturité sexuelle afin de s’assurer que les poissons aient eu le temps de se reproduire au cours de leur vie."
+          },
+          {
+            "id": "q_res_enf_42",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Est-ce que j’ai le droit de pêcher et de consommer tous les poissons ?",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Certains poissons sont protégés donc on ne peut pas les pêcher. Si on les pêche sans le vouloir, on doit les relâcher. D’autres poissons sont toxiques, donc on ne peut pas les manger"
+          },
+          {
+            "id": "q_res_enf_44",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Quel mer/océan est le plus pollué par les microplastiques, selon toi ?",
+            "propositions": [
+              "L'océan Atlantique",
+              "la Mer Méditerranée",
+              "L'Océan Indien",
+              "La Mer du Nord"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Bien qu'elle soit beaucoup plus petite que les grands océans, la mer Méditerranée est une mer presque entièrement fermée et surtout très fréquentée. Les déchets plastique qui y entrent, restent piégés et s'accumulent, ce qui en fait la mer la plus polluée de la planète en concentration de plastique."
+          },
+          {
+            "id": "q_res_enf_46",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Pour attraper du poisson, tous les bateaux de pêche utilisent les mêmes filets dans la mer ?",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le pêcheur artisanal de Palavas, utilise des techniques douces. Il choisit précisément où il pose son filet pour ne pas abîmer la nature et ne prendre que les poissons adultes. C'est un vrai protecteur de la mer !",
+            "saviez_vous": "Les gros bateaux industriels traînent un filet géant sur le fond de l'eau qui abîme tout sur son passage."
+          },
+          {
+            "id": "q_res_enf_48",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Sur le marché de poissons de Palavas-les-Flots,qui a pêché le poisson ?",
+            "propositions": [
+              "Des pêcheurs avec leurs cannes à pêche",
+              "Des pêcheurs avec des petits bateaux artisanaux",
+              "Des grands bateaux qui vont loin en mer"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Palavas-les-Flots abrite une communauté historique de pêcheurs artisanaux qui utilisent des techniques sélectives et douces (filets fixes, casiers). La pêche à la ligne (du bord ou en mer) y est également une activité de loisir très populaire.",
+            "saviez_vous": "En revanche, le chalutage de fond et les filets dérivants sont strictement interdits près des côtes car ils détruisent les habitats fragiles comme les herbiers de posidonie.",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/canal.PNG"
+          },
+          {
+            "id": "q_res_enf_50",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Quand on fait du jet-ski ou du bateau à moteur très vite près de la plage, cela ne dérange pas du tout les animaux de la mer parce qu’on ne les touche pas et ils adorent s'amuser avec nous ?",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le bruit des moteurs perturbe l'orientation et la communication des cétacés et des poissons (pollution sonore), tandis que la vitesse élevée des engins multiplie les accidents graves, notamment avec les tortues marines et les grands dauphins.",
+            "saviez_vous": "On observe à l'échelle mondiale une perturbation des déplacements des mammifères marins et des poissons, à cause entre autres du bruit généré par les bateaux"
+          }
+        ],
+        "adultes": [
+          {
+            "id": "q_plast_enf_02",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Combien de plastique les humains produisent-ils chaque seconde dans le monde ?",
+            "propositions": [
+              "100 kg",
+              "1 000 kg",
+              "10 000 kg",
+              "100 000 kg"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Chaque seconde, environ 1 000 kg de plastique sont produits dans le monde.",
+            "saviez_vous": "Plus de 8 millions de tonnes de plastique finissent chaque année dans les océans."
+          },
+          {
+            "id": "q_plast_adu_01",
+            "type": "qcm_multi",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Quels sont les deux types de déchets les plus fréquemment retrouvés lors des ramassages côtiers en Méditerranée ?",
+            "propositions": [
+              "Mégots de cigarette",
+              "Déchets de pêche",
+              "Emballages plastique souples",
+              "Canettes métalliques",
+              "Sacs plastique rigides",
+              "Bouteilles en verre"
+            ],
+            "bonnes_reponses": [
+              0,
+              2
+            ],
+            "explication": "Les mégots et les emballages plastique souples dominent les collectes sur les plages méditerranéennes.",
+            "saviez_vous": "Selon les études de l'IFREMER, les mégots représentent jusqu'à 30% des déchets ramassés sur le littoral français.",
+            "source": "IFREMER"
+          },
+          {
+            "id": "q_plast_adu_02",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Quelle est la durée de dégradation estimée d'une bouteille en plastique en milieu marin ?",
+            "propositions": [
+              "10 à 50 ans",
+              "100 à 200 ans",
+              "300 à 500 ans",
+              "Plus de 1 000 ans"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Une bouteille en plastique PET peut mettre entre 300 et 500 ans à se dégrader en mer.",
+            "saviez_vous": "Les micro-plastiques issus de sa dégradation persistent indéfiniment dans l'environnement marin."
+          },
+          {
+            "id": "q_plast_adu_04",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Quelle part de la production mondiale de plastique finit dans les océans chaque année ?",
+            "propositions": [
+              "Moins de 1%",
+              "Environ 3%",
+              "Environ 8%",
+              "Plus de 15%"
+            ],
+            "bonne_reponse": 2,
+            "explication": "On estime qu'environ 8 millions de tonnes de plastique, soit 8% de la production mondiale, finissent dans les océans.",
+            "saviez_vous": "À ce rythme, il y aurait plus de plastique que de poissons dans les océans d'ici 2050 selon certaines études."
+          },
+          {
+            "id": "q_plast_adu_05",
+            "type": "qcm_multi",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Quelles actions ont un impact direct prouvé sur la réduction de la pollution marine littorale ?",
+            "propositions": [
+              "Ramassages citoyens réguliers",
+              "Réduction à la source des emballages",
+              "Amélioration des systèmes de collecte",
+              "Sensibilisation scolaire"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "explication": "Ces quatre leviers sont complémentaires et font partie des recommandations des experts environnementaux.",
+            "saviez_vous": "Océan Protection France mène plus de 30 événements par an, combinant ramassages, ateliers et sensibilisation jeune public."
+          },
+          {
+            "id": "q_biodiv_tous_06",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Les tortues de mer ne peuvent pas rentrer leur tête dans leur carapace.",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Contrairement aux tortues terrestres, les tortues de mer ne peuvent pas rentrer leurs têtes dans leurs carapaces.",
+            "saviez_vous": "Les tortues caouanne reviennent pondre sur les plages où elles ont éclos. Les sites de pontes sont protégées en Méditerranée pour préserver le développement des œufs",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/Sea-turtle_NMPZ_Laurent-Sourbes-1471x1080-panorama.jpg"
+          },
+          {
+            "id": "q_eco_enf_09",
+            "type": "qcm_multi",
+            "theme": "eco",
+            "points": 10,
+            "question": "Pour réduire les déchets, il vaut mieux",
+            "propositions": [
+              "ramasser les déchets trouvés au sol",
+              "acheter en vrac",
+              "préférer des contenants réutilisables"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "q_plast_adu_12",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Qu’appelle-t-on le « 7ème continent » ?",
+            "propositions": [
+              "un archipel",
+              "une concentration de déchets dans les océans",
+              "une île entourée de mangroves"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le 7ème continent est une masse géante de déchets flottants sur l’eau.",
+            "saviez_vous": "Le saviez-vous : Il a été découvert en 1997, entre hawaï et le Japon, et mesure jusqu’à 3 fois la taille de la France. Aujourd’hui, il existe des continents de déchets un peu partout dans les eaux du globe"
+          },
+          {
+            "id": "q_biodiv_adulte_13",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Quel animal les scientifiques étudient-ils pour évaluer la pollution de la mer ?",
+            "propositions": [
+              "la tortue",
+              "le loup",
+              "la dorade",
+              "la baleine"
+            ],
+            "bonne_reponse": 0,
+            "explication": "La tortue est l’animal utilisé pour évaluer la pollution car les déchets que les scientifiques trouvent dans son estomac correspondent à ce qu’il y a en mer.",
+            "saviez_vous": "Le plastique représente 85% des déchets marins et toute la vie marine est menacée par cette pollution qui provoque des toxicités, des suffocations, des étouffements et des troubles du comportement et de famine."
+          },
+          {
+            "id": "q_biodiv_adulte_14",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "la chaire d’une baleine peut être contaminée par du plastique",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Les baleines mangent énormément de krill (des minis crevettes) qui elles-mêmes avalent des particules de plastiques. Donc les krill étant contaminés, contaminent à leur tour les prédateurs qui les mangent.",
+            "saviez_vous": "Les baleines engloutissent environ 43kilos de plastiques par jour car elles se nourrissent dans des profondeurs, de l’océan, où l’on retrouve énormément de micro-plastiques."
+          },
+          {
+            "id": "q_plast_adu_15",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Sur la durée totale de sa vie, quel objet nécessite 1300 litres d’eau ?",
+            "propositions": [
+              "un t-shirt",
+              "un téléphone portable",
+              "une voiture",
+              "un ordinateur"
+            ],
+            "bonne_reponse": 1
+          },
+          {
+            "id": "q_biodiv_tous_16",
+            "type": "qcm_multi",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "A quoi servent les récifs coralliens?",
+            "propositions": [
+              "abriter les poissons",
+              "réduire la puissance des vagues et des tempêtes",
+              "accueillir les plongeurs",
+              "nourrir les étoiles de mer"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              3
+            ],
+            "explication": "Les récifs coralliens servent d’habitat, d’abris et de source de nourriture aux poissons et êtres vivants marins, préservant la biodiversité. Ils permettent également de protéger l’homme en réduisant la puissance des vagues et des tempêtes qui viennent s’écraser sur nos côtes.",
+            "saviez_vous": "Le réchauffement des eaux et l’acidification des océans provoque un blanchissement des coraux liés à la modification de leur environnement, provoquant sa mort. La mort des coraux met en péril la survie de la vie marine"
+          },
+          {
+            "id": "q_biodiv_tous_17",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Combien de pourcentage de la Terre couvre les océans ?",
+            "propositions": [
+              "0.1",
+              "0.5",
+              "70",
+              "85"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Les océans couvrent exactement 71% de la Terre, d’où son surnom de planète bleue. Ils représentent 97% de l’eau sur Terre. Ils nous permettent de nous nourrir, de respirer et de réguler notre climat.",
+            "saviez_vous": "Les océans ne sont pas des ressources inépuisables. La destruction et la pollution des écosystèmes marins provoqués par l’activité humaine menacent la vie marine et humaine."
+          },
+          {
+            "id": "q_biodiv_tous_18",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Le son se propage plus rapidement dans l’air que dans l’eau",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Le son se propage plus rapidement dans l’eau. Il se déplace à 1240 km/h dans l’air contre 55 400 km/h dans l’eau.",
+            "saviez_vous": "c'est pourquoi on parle de plus en plus de pollution sonore marine, qui gêne les comportements et les déplacements des espèces marines"
+          },
+          {
+            "id": "q_biodiv_tous_19",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Qu’est- ce que l’empreinte écologique ?",
+            "propositions": [
+              "Des traces d’animaux",
+              "la pression des humains sur la Nature",
+              "Des traces d’animaux"
+            ],
+            "bonne_reponse": 1,
+            "explication": "L’empreinte écologique est l’estimation de la surface de terre dont l’Homme a besoin pour répondre à ses besoins : se loger, se nourrir, s’habiller…",
+            "saviez_vous": "On parle d'une période de l'Anthropocène : il s'agit de l'ère écologique façonnée par les activités humaines."
+          },
+          {
+            "id": "q_biodiv_tous_20",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "On ne compte plus les fleuves pollués dans le monde…Mais lequel bat tous les records en termes de pollution ?",
+            "propositions": [
+              "Le Citarum (Indonésie)",
+              "Le Rio Doce (Brésil)",
+              "Le fleuve Niger (Nigéria)"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Le Citarum est un fleuve situé en Indonésie qui s’étend sur environ 300 kilomètres. Mais avec les rejets industriels et domestiques de la part des usines et des , le fleuve est devenu le fleuve le plus pollué. Tous les jours, des tonnes de produits chimiques et de déchets plastiques y sont jetés. Cette pollution dégrade les écosystèmes et menace la vie marine et terrestre. La pollution de ce fleuve tue en moyenne plus de 50 000 personnes par an.",
+            "saviez_vous": "De nombreux projets, portés par des citoyens, des collectivités ou des startups, voient le jour à travers le monde pour réduire les déchets dans les fleuves et les rivières, et ainsi préserver la santé des populations et la qualité des eaux"
+          },
+          {
+            "id": "q_plast_adu_21",
+            "type": "qcm_multi",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Où retrouve-t-on des polluants éternels (ce qu'on appelle PFAS) ?",
+            "propositions": [
+              "poëles",
+              "t-shirt",
+              "flacon de crème de beauté",
+              "eau"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "explication": "Les PFAS sont utilisés depuis les années 1990 dans de très nombreux usages quotidiens : textiles, emballages, cosmétiques, ustensiles de cuisine. Du fait de leur forte persistance quelque soit le milieu, on les appelle les \"polluants éternels\".",
+            "saviez_vous": "On retrouve des PFAS chez 100% des français (sang, urine, cheveux…). La règlementation française et européenne se sont durcies en 2025 sur les sites de production et sur le traitement des PFAS dans l'eau. (source OIEAU)"
+          },
+          {
+            "id": "q_plast_adu_22",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Si je ramasse un déchet plastique trouvé dans l'eau, j'ai éliminé un problème",
+            "propositions": [
+              "Vrai",
+              "Faux",
+              "vrai et faux"
+            ],
+            "bonne_reponse": 2,
+            "explication": "Un déchet plastique qui a déjà passé du temps dans l'eau ou dans la nature s'est détérioré et a pu libérer des substances chimiques. Cependant, l'éliminer dès que possible limite le problème de sa dérioration en micro ou nano-plastiques.",
+            "saviez_vous": "L'Ifremer estime que 90 % du nombre de plastiques en mer sont des microplastiques, soit 24 000 milliards flottant à la surface des océans."
+          },
+          {
+            "id": "q_eco_adu_23",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "Quelle plante peut être utilisée pour fabriquer de la lessive maison ?",
+            "propositions": [
+              "l'ortie",
+              "le lierre grimpant",
+              "la fougère"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le lierre grimpant peut être utilisé pour fabriquer de la laissiez maison car il possède des molécules appelées « saponines » qui lui permet d’éloigner les parasites.",
+            "saviez_vous": "Vous pouvez retrouver plein d'astuces et de recettes maison et écologiques dans le guide \"Ma famille Zéro déchets\" à commander ici https://www.comprendrepouragir.org/produit/famille-zero-dechet-ze-guide/"
+          },
+          {
+            "id": "q_eco_tous_24",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "En fabriquant 1 tonne de papier à partir de papier recyclé, combien d’arbres peuvent être épargnés ?",
+            "propositions": [
+              "3",
+              "17",
+              "33"
+            ],
+            "bonne_reponse": 1,
+            "explication": "selon l'Agence de protection de l'environnement des États-Unis (EPA), le recyclage d'une tonne de papier peut économiser environ 17 arbres, 26,5 m3 d'eau et 11 barils de pétrole.",
+            "saviez_vous": "Le tri ne produit pas moins de déchets, mais seulement des déchets mieux rangés, qui peuvent donc être mieux valorisés. Le tri est une étape qui n’est pas forcément suivie d’un recyclage, et le meilleur déchet est celui qui n’est pas produit."
+          },
+          {
+            "id": "q_plast_tous_25",
+            "type": "qcm",
+            "theme": "plastique",
+            "points": 10,
+            "question": "le plastique se recycle à l'infini",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Un des obstacles au recyclage des plastiques est leur grande diversité : environ 50 % des emballages sont soit non recyclables, soit très difficilement recyclables. (source : GéoLittoral.gouv.fr)",
+            "saviez_vous": "En France, 24 % des déchets plastiques et 26% des déchets d'emballages plastiques sont recyclés.(source : géolittoral.gouv.fr)"
+          },
+          {
+            "id": "q_biodiv_adu_27",
+            "type": "qcm",
+            "theme": "biodiversite",
+            "points": 10,
+            "question": "Quel est l'intérêt principal de la posidonie ?",
+            "propositions": [
+              "Elle permet un ancrage plus robuste",
+              "La posidonie abrite la biodiversité marine et produit de l’oxygène"
+            ],
+            "bonne_reponse": 0,
+            "saviez_vous": "On appelle la posidonie le “poumon de la mer” car elle produit beaucoup d’oxygène. Elle sert d’habitat, de nurserie, et de refuge à la biodiversité marine. Jeter l’ancre dans la posidonie l’arrache des fonds marins, il faut le faire dans le sable.",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/Atherines%20Herbier.JPG"
+          },
+          {
+            "id": "q_res_adu_29",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Dans la grande zone de la réserve marine de Palavas-les-Flots, on a le droit de",
+            "propositions": [
+              "pêcher",
+              "Naviguer avec son bateau",
+              "Plonger",
+              "Rien de tout ça !"
+            ],
+            "bonne_reponse": 3,
+            "explication": "La Réserve Marine de Palavas-les-Flots est une zone protégée en mer à 2 km des côtes. Elle est délimitée par de grandes bouées jaunes. Dans cette zone, il est interdit de pêcher, de naviguer et de plonger.",
+            "saviez_vous": "La plongée est autorisée dans une petite partie de la zone si le bateau est au mouillage écologique. La réserve permet aux espèces de vivre et se reproduire paisiblement et sans être dérangés par les activités humaines",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/zone%20reserve.png"
+          },
+          {
+            "id": "q_res_adu_31",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Qui a été à l’origine de la création de la Réserve Marine de Palavas-les-Flots?",
+            "propositions": [
+              "la Prud'homie des patrons pêcheurs",
+              "La commune de Palavas-les-flots et la capitainerie",
+              "La capitainerie et la Prud'homie des patrons pêcheurs",
+              "La Prud'homie des patrons pêcheurs et la commune de Palavas-les-flots"
+            ],
+            "bonne_reponse": 3,
+            "explication": "La Réserve Marine de Palavas-les-Flots a été créée en 2016 à l’initiative des pêcheurs et de la commune de Palavas-les-Flots",
+            "saviez_vous": "En effet, les pêcheurs se sont rendu compte d’un déclin des populations de poissons, ce qui les a incité à prendre l’initiative de la création d’une zone protégée et réglementée.",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/banc%20poissons.jpg"
+          },
+          {
+            "id": "q_res_adu_33",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Le rôle de l’éco-garde est de :",
+            "propositions": [
+              "Surveiller la réserve marine",
+              "Mettre des contraventions"
+            ],
+            "bonne_reponse": 0,
+            "explication": "L’écogarde le la Réserve Marine surveille la zone au quotidien durant la période estivale afin de s’assurer du respect de la réglementation. Malheureusement, il n’est pas habilité à verbaliser les infractions mais il sensibilise à l’importance du respect des règles au sein de la Réserve Marine.",
+            "saviez_vous": "Tout l'été, vous pouvez venir découvrir la Réserve marine et le sentier sous-marin.",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/Logo%20Typographie.png"
+          },
+          {
+            "id": "q_res_tous_34",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Quelle est la particularité du Puffin de Méditerranée ?",
+            "propositions": [
+              "il peut dormir en volant",
+              "il ne peut pas plonger",
+              "son plumage est imperméable",
+              "la femelle ne pond qu'un seul œuf par an"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Le puffin de Méditerranée est aussi appelé puffin de Yelkouan. C’est un oiseau marin qui vit majoritairement en mer.",
+            "saviez_vous": "La femelle vient sur la côte seulement pour pondre, où elle pond un seul oeuf par an. Ces oiseaux ne construisent pas de nid, et la ponte se fait généralement dans une cavité rocheuse. Ils vivent en colonie, et volent à ras des vagues. Il peut même dormir en volant !",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/puffin-mediterranee-1-n-bazin-parc-national-calanques-marseille-cassis-la-ciotat.jpg",
+            "source": "bazin-parc-national-calanques-marseille-cassis-la-ciota"
+          },
+          {
+            "id": "q_res_adu_36",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Combien y a-t-il approximativement d’infractions par été dans la Réserve Marine de Palavas-les-Flots?",
+            "propositions": [
+              "entre 20 et 30",
+              "entre 30 et 40",
+              "entre 40 et 50",
+              "entre 50 et 60"
+            ],
+            "bonne_reponse": 1,
+            "explication": "On estime entre 30 et 40 le nombre d’infractions commises chaque été dans la Réserve Marine de Palavas-les-Flots.",
+            "saviez_vous": "la Réserve marine de la côte palavasienne, se situe à 2 km des côtes et s'étend sur une superficie de 100 hectares",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/zone%20reserve.png"
+          },
+          {
+            "id": "q_res_adu_38",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Qu’est-ce que le coralligène?",
+            "propositions": [
+              "un habitat \"vivant\"",
+              "un habitat \"mort\"",
+              "un habitat endémique de la Méditerranée",
+              "un espèce de corail"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Le coralligène est un habitat typique de la Méditerranée, constitué par une accumulation d’algues calcaires, qui donnent un aspect rocheux. “Coralligène” signifie “producteur de corail”. Ce terme est lié à l’abondance de corail rouge associé à cet habitat",
+            "saviez_vous": "Le coralligène abrite de manière temporaire ou permanente 15 à 20% des espèces présentent en Méditerranée, soit plus de 1700 espèces !"
+          },
+          {
+            "id": "q_res_adu_40",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Le rôle de l’éco-garde est de :",
+            "propositions": [
+              "Surveiller la réserve marine",
+              "Surveiller la réserve marine et mettre des contraventions"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Chaque été, un écogarde navigue autour de la Réserve Marine de Palavas-les-Flots afin de la surveiller. Son rôle est d’informer les usagers de la mer de l’existence de la réserve et d’en faire respecter la réglementation."
+          },
+          {
+            "id": "q_res_adu_41",
+            "type": "qcm_multi",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Si je veux pêcher pour le loisir, je dois",
+            "propositions": [
+              "Me déclarer en tant que pêcheur",
+              "Déclarer mes prises si ce sont des espèces protégées",
+              "Veiller à ne pêcher que des poissons ayant atteint leur taille de maturité sexuelle"
+            ],
+            "bonnes_reponses": [
+              0,
+              1,
+              2
+            ],
+            "explication": "Si je souhaite pêcher, je dois être responsable. Dès 16 ans, je me déclare en tant que pêcheur plaisancier et je m’informe sur les réglementations et les pratiques responsables à adopter. Par exemple, ne pêcher que des poissons ayant atteint leur taille de maturité sexuelle afin de s’assurer que les poissons aient eu le temps de se reproduire au cours de leur vie."
+          },
+          {
+            "id": "q_res_adu_43",
+            "type": "qcm_multi",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Si je pêche une dorade rose ou une dorade coryphène, que dois-je faire?",
+            "propositions": [
+              "les déclarer le jour même",
+              "les déclarer via l’application CatchMachine ou Recfishing",
+              "les déclarer à la capitainerie de la ville la plus proche",
+              "leur couper une petite partie de la queue et les relâcher"
+            ],
+            "bonnes_reponses": [
+              0,
+              1
+            ],
+            "explication": "Certaines espèces sont vulnérables mais autorisées à la pêche. C’est le cas de la dorade rose et de la dorade coryphène. Si j’en pêche, je dois déclarer ma prise sur l’application CatchMachine ou Recfishing le jour même. Par ailleurs, si je pêche des poissons ayant une forte valeur marchande, je dois leur couper la partie inférieure de la nageoire caudale afin d'empêcher la revente illégale."
+          },
+          {
+            "id": "q_res_adu_45",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "La pollution plastique en Méditerranée",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 0,
+            "explication": "Bien qu'elle soit beaucoup plus petite que les grands océans, la mer Méditerranée est une mer presque entièrement fermée et surtout très fréquentée. Les déchets plastique qui y entrent, restent piégés et s'accumulent, ce qui en fait la mer la plus polluée de la planète en concentration de plastique."
+          },
+          {
+            "id": "q_res_adu_47",
+            "type": "qcm",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Le chalutage de fond et la pêche artisanale ont le même impact sur l'environnement marin, car le plus important est simplement la quantité de poissons pêchés.",
+            "propositions": [
+              "Vrai",
+              "Faux"
+            ],
+            "bonne_reponse": 1,
+            "explication": "Le pêcheur artisanal de Palavas, utilise des techniques douces. Il choisit précisément où il pose son filet pour ne pas abîmer la nature et ne prendre que les poissons adultes. C'est un vrai protecteur de la mer !",
+            "saviez_vous": "Les gros bateaux industriels traînent un filet géant sur le fond de l'eau qui abîme tout sur son passage."
+          },
+          {
+            "id": "q_res_adu_49",
+            "type": "qcm_multi",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Quels types de pêche retrouve-t-on à Palavas-les-Flots ?",
+            "propositions": [
+              "Pêche artisanale",
+              "Le chalutage de fond à moins de 3 milles nautiques des côtes",
+              "Pêche à la ligne",
+              "La pêche électrique en lagune"
+            ],
+            "bonnes_reponses": [
+              0,
+              2
+            ],
+            "explication": "Palavas-les-Flots abrite une communauté historique de pêcheurs artisanaux qui utilisent des techniques sélectives et douces (filets fixes, casiers). La pêche à la ligne (du bord ou en mer) y est également une activité de loisir très populaire.",
+            "saviez_vous": "En revanche, le chalutage de fond et les filets dérivants sont strictement interdits près des côtes car ils détruisent les habitats fragiles comme les herbiers de posidonie.",
+            "saviez_vous_image": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/canal.PNG"
+          },
+          {
+            "id": "q_res_adu_51",
+            "type": "qcm_multi",
+            "theme": "reserve_marine",
+            "points": 10,
+            "question": "Les activités de loisirs motorisées sur nos côtes (jet-ski, bateaux de plaisance, bouées tractées) représentent une menace grandissante pour la faune marine méditerranéenne. Quels sont leurs principaux impacts négatifs directs ?",
+            "propositions": [
+              "Une pollution sonore intense qui perturbe les animaux marins",
+              "L'élévation de la température de la colonne d'eau due aux rejets des moteurs",
+              "Un risque de collision"
+            ],
+            "bonnes_reponses": [
+              0,
+              2
+            ],
+            "explication": "Le bruit des moteurs perturbe l'orientation et la communication des cétacés et des poissons (pollution sonore), tandis que la vitesse élevée des engins multiplie les accidents graves, notamment avec les tortues marines et les grands dauphins.",
+            "saviez_vous": "On observe à l'échelle mondiale une perturbation des déplacements des mammifères marins et des poissons, à cause entre autres du bruit généré par les bateaux"
+          }
+        ]
+      }
+    }
+  ],
+  "enigmes": [
+    {
+      "id": "enig_mer_01",
+      "type": "enigme",
+      "theme": "biodiversite",
+      "public": "enfants",
+      "points": 15,
+      "question": "Je suis une forêt sous la mer, mes feuilles font de l'oxygène, les petits poissons s'y cachent. Qui suis-je ?",
+      "indice": "Mon nom vient du grec et signifie « herbe de mer ».",
+      "propositions": [
+        "Le corail",
+        "La posidonie",
+        "Le varech",
+        "La caulerpé"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La posidonie est une plante marine (pas une algue !) qui forme de véritables forêts sous-marines en Méditerranée.",
+      "saviez_vous": "Un herbier de posidonie produit jusqu'à 14 litres d'oxygène par heure et par mètre carré !",
+      "source": "Parc national de Port-Cros"
+    },
+    {
+      "id": "enig_mer_02",
+      "type": "enigme",
+      "theme": "biodiversite",
+      "public": "enfants",
+      "points": 15,
+      "question": "Je change de couleur en une seconde, je peux me faire passer pour un rocher, j'ai trois cœurs et du sang bleu. Qui suis-je ?",
+      "indice": "Je suis le plus intelligent des invertébrés marins.",
+      "propositions": [
+        "La seiche",
+        "La pieuvre",
+        "Le calmar",
+        "La méduse"
+      ],
+      "bonne_reponse": 1,
+      "explication": "La pieuvre (ou poulpe) possède 3 cœurs, du sang bleu riche en cuivre, et des chromatophores qui lui permettent de changer de couleur instantanément.",
+      "saviez_vous": "Le poulpe commun est présent dans la Réserve marine de la côte palavasienne."
+    },
+    {
+      "id": "enig_plast_01",
+      "type": "enigme",
+      "theme": "plastique",
+      "public": "tous",
+      "points": 15,
+      "question": "Je suis très mauvais pour la santé et pour la planète, on me jette sur le sable sans y penser, mais je mets 12 ans à disparaître et je peux tuer 500 litres d'eau. Qui suis-je ?",
+      "indice": "Je suis le déchet le plus ramassé sur les plages françaises.",
+      "propositions": [
+        "Une capsule de café",
+        "Un mégot de cigarette",
+        "Un bâtonnet de glace",
+        "Un ticket de caisse"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le mégot est le déchet le plus fréquent sur les plages. Il contient des métaux lourds et des substances cancérigènes qui contaminent les eaux.",
+      "saviez_vous": "Ocean Protection France collabore avec l'association Clope pour lutter contre ce fléau.",
+      "source": "World Cleanup Day France, 2023"
+    },
+    {
+      "id": "enig_reserve_01",
+      "type": "enigme",
+      "theme": "reserve_marine",
+      "public": "adultes",
+      "points": 15,
+      "question": "Créée en 2016, je couvre 100 hectares au cœur d'un site Natura 2000. Il est interdit d'y pêcher, mais pas d'y plonger. Où suis-je ?",
+      "indice": "Je me trouve entre Palavas et Maguelone.",
+      "propositions": [
+        "La réserve de Scandola",
+        "Le banc des Aresquiers",
+        "La Réserve marine de la côte palavasienne",
+        "Le Parc marin de la Côte Bleue"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La Réserve marine de la côte palavasienne a été créée en 2016 dans le site Natura 2000 des Posidonies Palavasiennes. Elle vise à restaurer la biodiversité locale.",
+      "saviez_vous": "Depuis sa création, les populations de mérous et de sars ont augmenté de 40% dans la zone protégée.",
+      "source": "Comité Régional des Pêches, 2022"
+    },
+    {
+      "id": "enig_mer_03",
+      "type": "enigme",
+      "theme": "biodiversite",
+      "public": "enfants",
+      "points": 15,
+      "question": "Lorsque je dors, une partie de mon cerveau reste eveillé  avec mon sonar, je repère mes proies : petits poissons, seiches ou calamars  J’émets des sifflements pour communiquer  Je suis très sociable et me laisse approcher par les humains Je suis un crétacé très intelligent",
+      "indice": "Indice facultatif affiché si le joueur hésite.",
+      "propositions": [
+        "le poulpe",
+        "la dorade",
+        "le dauphin"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Explication de la réponse.",
+      "saviez_vous": "Proche de nos côtes, il n'est pas rare d'avoir la chance d'observer des dauphins. Un bébé a même été repéré ces dernières semaines dans la zone de la Réserve!"
+    },
+    {
+      "id": "enig_mer_04",
+      "type": "enigme",
+      "theme": "biodiversite",
+      "public": "enfants",
+      "points": 15,
+      "question": "Je compte plus de 7000 espèces En mangeant les petits animaux morts, je nettoie les fonds marins  Je me déplace de manière latérale  Je suis un crustacé doté de pinces",
+      "indice": null,
+      "propositions": [
+        "l'hippocampe",
+        "le crabe",
+        "la méduse"
+      ],
+      "bonne_reponse": 1,
+      "saviez_vous": "Le crabe est un prédateur mais aussi appelé nettoyeur. En effet, il va se nourrir d’algues et de petites espèces marines ce qui va permettre de nettoyer les fonds et de réguler les diverses petites populations dont il se nourrit. Il aide au maintien de l’équilibre écologique"
+    },
+    {
+      "id": "enig_plast_02",
+      "type": "enigme",
+      "theme": "plastique",
+      "public": "adultes",
+      "points": 15,
+      "question": "Je suis le plastique synthétique le plus répandu pour l’emballage alimentaire, mon petit nom est",
+      "indice": null,
+      "propositions": [
+        "Polychlorure",
+        "Polycopié",
+        "Polyéthylène"
+      ],
+      "bonne_reponse": 2,
+      "saviez_vous": "Le polyéthylène est l'un des matériaux les moins couteux à produire. On le retrouve dans de nombreux usages courants (flacons, contenants, cables…). Il se dégrade à températures hautes, et libèrent des molécules dans les boissons ou les aliments.",
+      "source": "En moyenne, 100 millions de tonnes de polyéthylène sont produites chaque année (sorce INRAE)"
+    }
+  ],
+  "questions_images": [
+    {
+      "id": "img_faune_01",
+      "type": "qcm",
+      "theme": "biodiversite",
+      "public": "tous",
+      "points": 10,
+      "image_url": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/merou%20(fedorowsky-).jpg",
+      "image_credit": "© Federowsky",
+      "question": "Quel est ce poisson emblématique de la Réserve marine de la côte palavasienne ?",
+      "propositions": [
+        "Le bar commun",
+        "La daurade royale",
+        "Le mérou brun",
+        "Le loup de mer"
+      ],
+      "bonne_reponse": 2,
+      "explication": "Le mérou brun (Epinephelus marginatus) est une espèce emblématique de la Méditerranée, protégée dans la Réserve marine.",
+      "saviez_vous": "Le mérou peut vivre plus de 50 ans et changer de sexe : il naît femelle et devient mâle avec l'âge !",
+      "source": "Ifremer"
+    },
+    {
+      "id": "img_dechet_01",
+      "type": "qcm",
+      "theme": "plastique",
+      "public": "enfants",
+      "points": 10,
+      "image_url": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/megots.jpg",
+      "image_credit": "image libre de droit",
+      "question": "C'est le plus ramassé sur les plages françaises.",
+      "propositions": [
+        "Un emballage alimentaire",
+        "Un mégot de cigarette",
+        "Un bouchon de bouteille",
+        "Une paille en plastique"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Le mégot est le déchet numéro 1 sur les plages. Il libère des substances toxiques dans l'eau.",
+      "saviez_vous": "Océan Protection France a collecté plus de 5 000 kg de déchets depuis 2018, dont une grande part de mégots.",
+      "source": "OPF, bilan 2023"
+    },
+    {
+      "id": "img_posidonie_01",
+      "type": "qcm",
+      "theme": "posidonie",
+      "public": "adultes",
+      "points": 10,
+      "image_url": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/Atherines%20Herbier.JPG",
+      "image_credit": "image libre de droit",
+      "question": "Que représente cette image sous-marine, classée Natura 2000 au large de Palavas ?",
+      "propositions": [
+        "Un champ d'algues invasives",
+        "Un herbier de posidonie",
+        "Un fond de sable nu",
+        "Une zone de coraux profonds"
+      ],
+      "bonne_reponse": 1,
+      "explication": "Les herbiers de posidonie sont des écosystèmes fondamentaux de la Méditerranée : ils produisent de l'oxygène et servent de nurserie pour de nombreuses espèces.",
+      "saviez_vous": "Un mètre carré de posidonie produit autant d'oxygène en un an qu'un arbre adulte.",
+      "source": "DREAL Occitanie"
+    },
+    {
+      "id": "img_dechet_02",
+      "type": "qcm",
+      "theme": "plastique",
+      "public": "tous",
+      "points": 10,
+      "image_url": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/canette.jpg",
+      "image_credit": "image libre de droit",
+      "question": "Combien de temps met une cannette à se décomposer ?",
+      "propositions": [
+        "2 ans",
+        "60 ans",
+        "200 ans"
+      ],
+      "bonne_reponse": 0,
+      "explication": "Lors des ramassages d'Ocean Protection France, les canettes font partie des déchets les plus ramassés",
+      "saviez_vous": "Une bouteille en plastique met entre 450 et 500 ans pour se décomposer."
+    },
+    {
+      "id": "img_dechet_03",
+      "type": "qcm",
+      "theme": "plastique",
+      "public": "tous",
+      "points": 10,
+      "image_url": "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/le-chewing-gum-colle-sur-un-trottoir-fa4m49.jpg",
+      "image_credit": "© Votre crédit photo",
+      "question": "quelle est la durée de vie d'un chewing-gum jeté par terre ?",
+      "propositions": [
+        "2 jours",
+        "3 mois",
+        "5 ans"
+      ],
+      "bonne_reponse": 2,
+      "explication": "La durée de vie d’un chewing-gum est d’environ 5 ans car il n’est pas fait de matériaux biodégradables et donc prend du temps à se dégrader"
+    }
+  ],
+  "questions_association": [
+    {
+      "id": "assoc_bio_01",
+      "type": "association",
+      "sous_type": "mots-mots",
+      "theme": "biodiversite",
+      "public": "enfants",
+      "points": 15,
+      "consigne": "Relie chaque animal marin à sa caractéristique principale.",
+      "gauche": [
+        "Mérou brun",
+        "Posidonie",
+        "Pieuvre",
+        "Méduse"
+      ],
+      "droite": [
+        "Change de couleur en 1 seconde",
+        "Produit de l'oxygène sous l'eau",
+        "Poisson emblème de la réserve",
+        "Se déplace sans nageoires"
+      ],
+      "paires": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explication": "Le mérou est le poisson emblème, la posidonie produit l'oxygène, la pieuvre change de couleur, la méduse se déplace par pulsation.",
+      "saviez_vous": "La Réserve marine de la côte palavasienne abrite toutes ces espèces !"
+    },
+    {
+      "id": "assoc_plast_01",
+      "type": "association",
+      "sous_type": "mots-mots",
+      "theme": "plastique",
+      "public": "tous",
+      "points": 15,
+      "consigne": "Relie chaque déchet à son temps de dégradation dans la mer.",
+      "gauche": [
+        "Mégot de cigarette",
+        "Bouteille en plastique",
+        "Canette aluminium",
+        "Sac plastique",
+        "Verre"
+      ],
+      "droite": [
+        "1 à 5 ans",
+        "10 à 12 ans",
+        "200 à 500 ans",
+        "300 à 500 ans",
+        "Jusqu'à 4 000 ans"
+      ],
+      "paires": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "explication": "Le sac plastique se dégrade en 1-5 ans, le mégot en 10-12 ans, la canette en 200-500 ans, la bouteille en 300-500 ans, le verre jusqu'à 4 000 ans.",
+      "saviez_vous": "Aucun de ces matériaux ne disparaît vraiment : ils se fragmentent en micro-plastiques qui persistent indéfiniment.",
+      "source": "ADEME, 2022"
+    },
+    {
+      "id": "assoc_bio_02",
+      "type": "association",
+      "sous_type": "mots-images",
+      "theme": "biodiversite",
+      "public": "tous",
+      "points": 15,
+      "consigne": "Relie chaque nom d'espèce à sa photo.",
+      "gauche": [
+        "Mérou brun",
+        "Posidonie",
+        "Poulpe commun",
+        "Seiche"
+      ],
+      "droite": [
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/merou%20(fedorowsky-).jpg",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/Atherines%20Herbier.JPG",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/poulpe.jpg",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/lg-b-seiche-commune-sepia-officinalis.jpg"
+      ],
+      "paires": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explication": "Ces quatre espèces sont toutes présentes en Méditerranée et dans la réserve marine.",
+      "saviez_vous": "Le poulpe et la sèche sont deux céphalopodes très différents : la sèche a un os interne, le poulpe non."
+    },
+    {
+      "id": "assoc_eco_01",
+      "type": "association",
+      "sous_type": "mots-mots",
+      "theme": "plastique",
+      "public": "adultes",
+      "points": 15,
+      "consigne": "Associe chaque geste écologique à son impact principal.",
+      "gauche": [
+        "Utiliser une gourde",
+        "Trier ses déchets",
+        "Refuser les pailles plastique",
+        "Ramasser un déchet sur la plage"
+      ],
+      "droite": [
+        "Évite jusqu'à 150 bouteilles/an",
+        "Permet le recyclage des matières",
+        "Réduit les déchets marins",
+        "Empêche la pollution directe"
+      ],
+      "paires": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "explication": "Chaque geste a un impact concret et mesurable sur la réduction des déchets marins.",
+      "saviez_vous": "En France, chaque personne utilise en moyenne 150 bouteilles d'eau en plastique par an.",
+      "source": "Surfrider Foundation, 2023"
+    },
+    {
+      "id": "assoc_dech_01",
+      "type": "association",
+      "sous_type": "mots-images",
+      "theme": "dechets",
+      "public": "tous",
+      "points": 15,
+      "consigne": "dans quelle poubelle jeter ces déchets ?",
+      "gauche": [
+        "peau de banane",
+        "pile usagée",
+        "une bouteille en verre",
+        "barquette en plastique"
+      ],
+      "droite": [
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/bac-jaune-e1664890215489.png",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/collecte-verre.png",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/Biobin-detoure.jpg.webp",
+        "https://raw.githubusercontent.com/LauraVertigo/OPF/main/images/poubelle%20ecosysteme.png"
+      ],
+      "paires": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explication": "Explication affichée après la réponse.",
+      "saviez_vous": "Le saviez-vous ? (optionnel)"
+    }
+  ]
+}
