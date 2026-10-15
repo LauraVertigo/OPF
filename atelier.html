@@ -441,7 +441,12 @@ body.an-plein .an-barre{height:20px}
 .ac-prop.bon{background:#E3F5EF;border-color:#2E9E80;font-weight:700}
 .ac-prop.faux{opacity:.4}
 .ac-expl{margin-top:18px;font-size:clamp(16px,2.2vw,26px);line-height:1.5;background:var(--bleu-p);border-radius:14px;padding:14px 18px}
-.ac-sv{font-style:italic;color:var(--doux)}
+.ac-etiq{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--bleu);margin-bottom:6px;font-size:1.05em}
+.ac-sv{background:#FFF8E1;border:2px solid #F4C842;color:var(--texte)}
+.ac-src{font-size:.7em;color:var(--doux);margin-top:8px;font-style:italic}
+.an-statut{font-size:12px;padding:6px 10px;border-radius:8px;margin:2px 0 8px;background:var(--bleu-p);color:var(--doux)}
+.an-statut.ok{background:#E3F5EF;color:#0F5040}
+.an-statut.ko{background:#FFF3E0;color:#7A3018}
 .ac-img{max-width:100%;max-height:36vh;border-radius:12px;display:block;margin:12px auto}
 .ac-mini{max-height:56px;border-radius:6px;vertical-align:middle}
 .ac-assoc{display:grid;grid-template-columns:1fr 1fr;gap:16px}
@@ -814,6 +819,21 @@ const AT = {
 let streak = 0, dernierGain = null, scoreManche = [0, 0, 0];
 if (SESSION_CODE) { CONFIG.CHRONO_SEC = 30; CONFIG.CHRONO_SEC_ASSOCIATION = 50; }
 
+/* ── Remontée des scores vers l'animatrice (optionnelle, via un script Apps Script dédié) ──
+   Activée seulement si l'adresse du script est passée dans l'URL : &api=https://script.google.com/macros/s/.../exec
+   La page animatrice la recopie automatiquement dans le lien et le QR code des joueurs. */
+const ATELIER_API = (_qp.get("api") || "").trim();
+function envoyerScoreAtelier(manche) {
+  if (!ATELIER_API || !ATELIER) return;
+  try {
+    fetch(ATELIER_API, {
+      method: "POST", mode: "no-cors",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify({ session: SESSION_CODE, pseudo: pseudoJoueur, manche, scoreManche: scoreManche[manche - 1] || 0, total: score })
+    }).catch(() => {});
+  } catch (e) { /* l'envoi est un plus : le jeu continue même s'il échoue */ }
+}
+
 function esc(s) {
   return String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;" }[c]));
 }
@@ -929,6 +949,7 @@ function reprendreAtelier() {
 function afficherMancheAtelier() {
   sauverEtatAtelier("manche");
   const k = Math.floor(qIndex / AT.MANCHE); // manche qui vient de se terminer
+  envoyerScoreAtelier(k);
   const lignes = scoreManche.slice(0, k).map((s, i) => `<div class="at-ligne"><b>${s}</b>Manche ${i + 1}</div>`).join("");
   document.getElementById("atelier-card").innerHTML = `
     <span class="at-emoji">🌊</span>
@@ -952,6 +973,7 @@ function verifierCodeManche(k) {
 }
 function afficherFinAtelier() {
   sauverEtatAtelier("fin");
+  envoyerScoreAtelier(3);
   const dur = tempsDebut ? Math.round((Date.now() - tempsDebut) / 1000) : 0;
   const durStr = Math.floor(dur / 60) + " min " + String(dur % 60).padStart(2, "0") + " s";
   const lignes = scoreManche.map((s, i) => `<div class="at-ligne"><b>${s}</b>Manche ${i + 1}</div>`).join("");
@@ -1048,6 +1070,49 @@ function majClassementAn() {
     </div>`).join("");
 }
 
+/* ── Tableau de saisie + remontée automatique des scores ── */
+function anLignesHtml() {
+  return anEtat.rows.map((r, i) => `
+    <tr>
+      <td><input class="an-in an-pseudo" data-r="${i}" data-c="n" value="${esc(r.n)}" placeholder="Joueur ${i + 1}" maxlength="20"></td>
+      ${[0, 1, 2].map(c => `<td><input class="an-in an-num" type="number" inputmode="numeric" data-r="${i}" data-c="${c}" value="${esc(r.m[c])}" placeholder="M${c + 1}"></td>`).join("")}
+    </tr>`).join("");
+}
+function anRenderSaisie() {
+  const body = document.getElementById("an-saisie");
+  if (!body) return;
+  if (body.children.length !== anEtat.rows.length) { body.innerHTML = anLignesHtml(); return; }
+  body.querySelectorAll("input").forEach(el => {
+    if (el === document.activeElement) return; // on ne touche pas à la case en cours de saisie
+    const r = parseInt(el.dataset.r, 10);
+    el.value = el.dataset.c === "n" ? anEtat.rows[r].n : anEtat.rows[r].m[parseInt(el.dataset.c, 10)];
+  });
+}
+async function anPoll() {
+  if (!ATELIER_API) return;
+  const st = document.getElementById("an-statut");
+  try {
+    const r = await fetch(ATELIER_API + (ATELIER_API.includes("?") ? "&" : "?") + "session=" + encodeURIComponent(SESSION_CODE));
+    const d = await r.json();
+    if (!d || !Array.isArray(d.joueurs)) throw new Error("réponse inattendue");
+    d.joueurs.forEach(j => {
+      const nom = String(j.pseudo || "").trim();
+      if (!nom) return;
+      let row = anEtat.rows.find(x => x.n.trim().toLowerCase() === nom.toLowerCase());
+      if (!row) {
+        row = anEtat.rows.find(x => !x.n.trim());
+        if (!row) { row = { n: "", m: ["", "", ""] }; anEtat.rows.push(row); }
+        row.n = nom;
+      }
+      (j.m || []).forEach((v, k) => { if (k < 3 && v !== null && v !== undefined && v !== "") row.m[k] = String(v); });
+    });
+    anSauver(); anRenderSaisie(); majClassementAn();
+    if (st) { st.className = "an-statut ok"; st.textContent = "● Scores reçus automatiquement · " + d.joueurs.length + " joueur(s) · mis à jour à " + new Date().toLocaleTimeString("fr-FR"); }
+  } catch (e) {
+    if (st) { st.className = "an-statut ko"; st.textContent = "⚠ Pas de réponse du serveur de scores : tu peux saisir les scores à la main"; }
+  }
+}
+
 /* ── Mode correction : on repasse les questions une par une, plein écran ── */
 let anCorr = { mi: 0, i: 0, reveal: false, sel: [] };
 function anMedia(d) {
@@ -1115,8 +1180,12 @@ function anCorrRender() {
       `<div class="ac-prop${reveal ? (bons.includes(k) ? " bon" : " faux") : ""}"><b>${L[k]}</b>${esc(p)}</div>`).join("") + `</div>`;
   }
   if (reveal) {
-    if (q.explication) corps += `<div class="ac-expl">${esc(q.explication)}</div>`;
-    if (q.saviez_vous) corps += `<div class="ac-expl ac-sv">💡 ${esc(q.saviez_vous)}</div>`;
+    if (q.explication) corps += `<div class="ac-expl"><div class="ac-etiq">📘 Explication</div>${esc(q.explication)}</div>`;
+    if (q.saviez_vous) {
+      const img = q.saviez_vous_image ? `<img class="ac-img" src="${esc(rawGithubUrl(q.saviez_vous_image))}" alt="" onerror="this.style.display='none'">` : "";
+      const src = q.source ? `<div class="ac-src">${esc(q.source)}</div>` : "";
+      corps += `<div class="ac-expl ac-sv"><div class="ac-etiq">🌟 Le saviez-vous ?</div>${img}${esc(q.saviez_vous)}${src}</div>`;
+    }
   }
   ov.innerHTML = haut + `<div class="ac-corps">${corps}</div>` + nav;
   ov.scrollTop = 0;
@@ -1138,8 +1207,8 @@ function initAnimateur() {
   if (!donneesJeu) { cont.innerHTML = `<div class="carte">Impossible de charger questions.json.</div>`; return; }
   anCharger();
   const sel = selectionAtelier();
-  const lien = location.origin + location.pathname + "?atelier=" + encodeURIComponent(SESSION_CODE);
-  const qr = "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=8&data=" + encodeURIComponent(lien);
+  const lien = location.origin + location.pathname + "?atelier=" + encodeURIComponent(SESSION_CODE) + (ATELIER_API ? "&api=" + encodeURIComponent(ATELIER_API) : "");
+  const qr = "https://api.qrserver.com/v1/create-qr-code/?size=" + (ATELIER_API ? "360x360" : "220x220") + "&margin=8&data=" + encodeURIComponent(lien);
 
   const corrige = [0, 1, 2].map(mi => {
     const qs = sel.slice(mi * AT.MANCHE, (mi + 1) * AT.MANCHE);
@@ -1152,11 +1221,10 @@ function initAnimateur() {
       </div>`).join("") + `</details>`;
   }).join("");
 
-  const lignesSaisie = anEtat.rows.map((r, i) => `
-    <tr>
-      <td><input class="an-in an-pseudo" data-r="${i}" data-c="n" value="${esc(r.n)}" placeholder="Joueur ${i + 1}" maxlength="20"></td>
-      ${[0, 1, 2].map(c => `<td><input class="an-in an-num" type="number" inputmode="numeric" data-r="${i}" data-c="${c}" value="${esc(r.m[c])}" placeholder="M${c + 1}"></td>`).join("")}
-    </tr>`).join("");
+  const lignesSaisie = anLignesHtml();
+  const statutInit = ATELIER_API
+    ? `<div class="an-statut" id="an-statut">Connexion au serveur de scores…</div>`
+    : `<div class="an-statut" id="an-statut">Saisie manuelle (serveur de scores non configuré)</div>`;
 
   cont.innerHTML = `
     <div class="an-titre">🎤 Espace animatrice <span>session ${esc(SESSION_CODE)}</span></div>
@@ -1183,7 +1251,8 @@ function initAnimateur() {
     </div>
 
     <div class="carte an-hors-classement">
-      <div class="label">3 · Scores annoncés par les joueurs (score de chaque manche)</div>
+      <div class="label">3 · Scores des joueurs (score de chaque manche)</div>
+      ${statutInit}
       <table class="an-table"><thead><tr><th>Joueur</th><th>Manche 1</th><th>Manche 2</th><th>Manche 3</th></tr></thead><tbody id="an-saisie">${lignesSaisie}</tbody></table>
     </div>
 
@@ -1217,6 +1286,7 @@ function initAnimateur() {
     majClassementAn();
   });
   majClassementAn();
+  if (ATELIER_API) { anPoll(); setInterval(anPoll, 8000); }
 }
 if (ANIMATEUR) {
   document.getElementById("ecran-accueil").classList.remove("actif");
@@ -1450,7 +1520,7 @@ function timeoutQuestion(){ if(!reponduCetteQuestion) perdreSerie();
   const q=partieQuestions[qIndex];
   // Désactiver tout
   document.querySelectorAll('.btn-prop').forEach(b=>b.disabled=true);
-  if(q.type==='qcm'||q.type==='enigme'){
+  if(ATELIER){const bvm0=document.getElementById('btn-valider-multi');if(bvm0)bvm0.style.display='none';}else if(q.type==='qcm'||q.type==='enigme'){
     const bon=document.getElementById('prop-'+q.bonne_reponse);
     if(bon) bon.classList.add('bonne');
   }else if(q.type==='qcm_multi'){
@@ -1463,7 +1533,7 @@ function timeoutQuestion(){ if(!reponduCetteQuestion) perdreSerie();
   }
   const fb=document.getElementById('feedback');
   fb.className='feedback visible timeout';
-  fb.innerHTML='<strong>⏰ Temps écoulé !</strong>'+(q.explication||'');
+  fb.innerHTML='<strong>⏰ Temps écoulé !</strong>'+(ATELIER?'':(q.explication||''));
   const bs=document.getElementById('btn-suivant');
   bs.classList.add('visible');
   bs.textContent=labelSuivant();
@@ -1588,7 +1658,7 @@ function clicAssocDroite(j,btn,q){
   btn.classList.add(ok?'liee-ok':'liee-err');btn.disabled=true;
   if(ok) assocPairesCorrectes++;
   assocPairesFaites.push(i);
-  if(!ok){const bb=document.getElementById('assoc-d-'+bonD);if(bb&&!bb.disabled){bb.classList.add('liee-ok');bb.disabled=true;}}
+  if(!ok&&!ATELIER){const bb=document.getElementById('assoc-d-'+bonD);if(bb&&!bb.disabled){bb.classList.add('liee-ok');bb.disabled=true;}}
   assocSelectGauche=null;
   const cnt=document.getElementById('assoc-count');if(cnt)cnt.textContent=assocPairesFaites.length+'/'+q.paires.length;
   if(assocPairesFaites.length>=q.paires.length){
@@ -1621,7 +1691,8 @@ function repondreQCM(i){
   if(ok){ajouterPoints(q);}else{perdreSerie();}
   document.querySelectorAll('.btn-prop').forEach((b,j)=>{
     b.disabled=true;
-    if(j===q.bonne_reponse)b.classList.add('bonne');
+    if(ATELIER){ if(j===i) b.classList.add(ok?'bonne':'mauvaise'); }
+    else if(j===q.bonne_reponse)b.classList.add('bonne');
     else if(j===i&&!ok)b.classList.add('mauvaise');
   });
   afficherFeedback(ok,q);
@@ -1636,7 +1707,7 @@ function validerMulti(){
   if(ok){ajouterPoints(q);}else{perdreSerie();}
   document.querySelectorAll('.btn-prop').forEach((b,j)=>{
     b.disabled=true;b.classList.remove('selectionnee');
-    if(bonnes.has(j))b.classList.add('bonne');else if(selectionMulti.has(j))b.classList.add('mauvaise');
+    if(!ATELIER){if(bonnes.has(j))b.classList.add('bonne');else if(selectionMulti.has(j))b.classList.add('mauvaise');}
   });
   const bvm=document.getElementById('btn-valider-multi');if(bvm)bvm.style.display='none';
   afficherFeedback(ok,q);
@@ -1674,7 +1745,7 @@ function afficherFeedback(ok,q,extra){
   const fb=document.getElementById('feedback');
   const partiel=extra&&!ok&&extra.includes('/');
   fb.className='feedback visible '+(ok?'correct':partiel?'partiel':'incorrect');
-  let txt='<strong>'+(ok?'✓ Bonne réponse !':'✗ Pas tout à fait…')+'</strong>'+(ok&&ATELIER?gainHtml():'')+(q.explication||'');
+  let txt='<strong>'+(ok?'✓ Bonne réponse !':(ATELIER?'✗ Mauvaise réponse':'✗ Pas tout à fait…'))+'</strong>'+(ok&&ATELIER?gainHtml():'')+(ATELIER?'':(q.explication||''));
   if(extra)txt+='<br><span style="font-size:12px;opacity:.8">'+extra+'</span>';
   fb.innerHTML=txt;
   majScoreLive();
